@@ -1,6 +1,6 @@
-export default (text = "Hello!!!") => {
+export default (text = "Hello🎉🎉🎉") => {
   const element = document.createElement("div");
-  elemnt.innerHTML = text;
+  element.innerHTML = text;
 
   return element;
 };
