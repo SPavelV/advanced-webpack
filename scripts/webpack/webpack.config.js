@@ -1,8 +1,16 @@
 // Core
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-const delay = (timeout = 1000) =>
-  new Promise((resolve) => setTimeout(resolve, timeout));
+const {
+  PROJECT_ROOT,
+  SOURCE_DIRECTORY,
+  BUILD_DIRECTORY,
+} = require("./constatnts");
+
+const cleanOptions = {
+  verbose: true,
+};
 
 /**
  * Типы конфигов вебпак:
@@ -13,7 +21,13 @@ const delay = (timeout = 1000) =>
 
 module.exports = (env) => {
   return {
+    entry: SOURCE_DIRECTORY,
+    output: {
+      path: BUILD_DIRECTORY,
+      filename: "bundle.js",
+    },
     mode: "none",
+    devtool: false,
     plugins: [
       // Каждый плагин это конструктор
       new HtmlWebpackPlugin({
@@ -21,6 +35,7 @@ module.exports = (env) => {
         title: "Изучаем вебпак! 🚀",
         favicon: "./static/favicon.ico",
       }),
+      new CleanWebpackPlugin(cleanOptions),
     ],
   };
 };
