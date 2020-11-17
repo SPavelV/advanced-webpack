@@ -16,9 +16,6 @@ const getConfig = require("./webpack.config");
 
 // Hot reloading:
 // 1. ✔ настрокить на сервере
-// 2. ✔ настрокить на клиенте
-// 3. ✔ настрокить в вебпаке
-// 4. ✔ настрокить в исходном коде
 
 // Constants
 const { HOST, PORT } = require("./constants");

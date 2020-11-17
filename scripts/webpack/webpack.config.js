@@ -1,5 +1,4 @@
 // Core
-const { HotModuleReplacementPlugin } = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
@@ -22,10 +21,7 @@ const cleanOptions = {
 
 module.exports = (env) => {
   return {
-    entry: [
-      "webpack-hot-middleware/client?reload=true&quiet=true",
-      SOURCE_DIRECTORY,
-    ],
+    entry: SOURCE_DIRECTORY,
     output: {
       path: BUILD_DIRECTORY,
       filename: "bundle.js",
@@ -48,7 +44,6 @@ module.exports = (env) => {
         favicon: "./static/favicon.ico",
       }),
       new CleanWebpackPlugin(cleanOptions),
-      new HotModuleReplacementPlugin(),
     ],
   };
 };
