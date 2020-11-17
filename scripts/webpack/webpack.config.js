@@ -28,6 +28,14 @@ module.exports = (env) => {
     },
     mode: "none",
     devtool: false,
+    module: {
+      rules: [
+        {
+          test: /\.css$/,
+          use: ["style-loader", "css-loader"],
+        },
+      ],
+    },
     plugins: [
       // Каждый плагин это конструктор
       new HtmlWebpackPlugin({

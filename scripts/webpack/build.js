@@ -12,13 +12,13 @@ const getConfig = require("./webpack.config");
 
 const compiler = webpack(getConfig());
 
-compiler.hooks.beforeRun.tap({ name: "start" }, () => {
-  console.log("➡ compilation started");
-});
+// compiler.hooks.beforeRun.tap({ name: "start" }, () => {
+//   console.log("➡ compilation started");
+// });
 
-compiler.hooks.done.tap({ name: "done" }, () => {
-  console.log("➡ compilation completed");
-});
+// compiler.hooks.done.tap({ name: "done" }, () => {
+//   console.log("➡ compilation completed");
+// });
 
 compiler.run((error, stats) => {
   if (error) {
