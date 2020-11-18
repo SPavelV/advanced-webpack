@@ -24,34 +24,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "a": () => /* binding */ a,
 /* harmony export */   "b": () => /* binding */ b
 /* harmony export */ });
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-var Human = /*#__PURE__*/function () {
-  function Human(name, age) {
-    _classCallCheck(this, Human);
+class Human {
+  constructor(name, age) {
+    _defineProperty(this, "kind", "homo sapiens");
 
     this.name = name;
     this.age = age;
   }
 
-  _createClass(Human, [{
-    key: "sayName",
-    value: function sayName() {
-      console.log("name ", name);
-    }
-  }, {
-    key: "sayAge",
-    value: function sayAge() {
-      console.log("age ", age);
-    }
-  }]);
+  sayName() {
+    console.log("name ", name);
+  }
 
-  return Human;
-}();
+  sayAge() {
+    console.log("age ", age);
+  }
+
+}
 
 var gendalf = new Human("Gendalf", 777);
 gendalf.sayAge();
