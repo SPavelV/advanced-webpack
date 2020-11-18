@@ -8,9 +8,9 @@ const webpack = require("webpack");
 const chalk = require("chalk"); // Раскрашивает консоль
 
 // Config
-const getConfig = require("./webpack.config");
+const getProdConfig = require("./config/webpack.prod");
 
-const compiler = webpack(getConfig());
+const compiler = webpack(getProdConfig());
 
 // compiler.hooks.beforeRun.tap({ name: "start" }, () => {
 //   console.log("➡ compilation started");

@@ -5,6 +5,9 @@
 // 5. ✔ создать компайлер webpack
 // 6. ✔ запуск 🚀
 
+// Hot reloading:
+// 1. ✔ настрокить на сервере
+
 // Core
 const webpack = require("webpack");
 const DevServer = require("webpack-dev-server");
@@ -12,15 +15,12 @@ const hot = require("webpack-hot-middleware");
 const chalk = require("chalk"); // Раскрашивает консоль
 
 // Config
-const getConfig = require("./webpack.config");
-
-// Hot reloading:
-// 1. ✔ настрокить на сервере
+const getDevConfig = require("./config/webpack.dev");
 
 // Constants
 const { HOST, PORT } = require("./constants");
 
-const compiler = webpack(getConfig());
+const compiler = webpack(getDevConfig());
 
 const server = new DevServer(compiler, {
   host: HOST,
@@ -46,3 +46,4 @@ server.listen(PORT, HOST, () => {
     )}`
   );
 });
+DevServer.onListening;
