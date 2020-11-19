@@ -30,6 +30,10 @@ class Human {
   constructor(name, age) {
     _defineProperty(this, "kind", "homo sapiens");
 
+    _defineProperty(this, "sayKind", () => {
+      console.log("kind ", this.kind);
+    });
+
     this.name = name;
     this.age = age;
   }
