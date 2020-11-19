@@ -9,4 +9,6 @@
 // 1. react-hot-loader: babel-плагин
 // 2. react-hot-loader: исходный код
 
-import "./simple-components/javascript";
+// import "./simple-components/javascript";
+
+import "./react-components";
