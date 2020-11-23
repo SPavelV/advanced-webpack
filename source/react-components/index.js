@@ -1,4 +1,5 @@
 import React from "react";
+import { hot } from "react-hot-loader/root";
 import ReactDOM from "react-dom";
 
 // Styles
@@ -22,11 +23,11 @@ class Toggle extends React.Component {
       <section
         className={Styles.toggler}
         style={{
-          "--mainColor": "rebeccapurple",
+          "--mainColor": "orange",
           "--headingFontSize": `${this.state.count}px`,
         }}
       >
-        <h1>Test:</h1>
+        <h1>Test!!!:</h1>
         <button onClick={this.handleClick}>
           {this.state.isToggleOn ? "Включено!!" : "Выключено"}
         </button>
@@ -35,4 +36,6 @@ class Toggle extends React.Component {
   }
 }
 
-ReactDOM.render(<Toggle />, document.getElementById("app"));
+const WithHot = hot(Toggle);
+
+ReactDOM.render(<WithHot />, document.getElementById("app"));

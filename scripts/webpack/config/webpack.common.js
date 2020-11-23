@@ -7,7 +7,7 @@ const { SOURCE_DIRECTORY, BUILD_DIRECTORY } = require("../constants");
 module.exports = () => {
   return {
     mode: "none",
-    entry: SOURCE_DIRECTORY,
+    entry: [SOURCE_DIRECTORY],
     output: {
       path: BUILD_DIRECTORY,
       filename: "bundle.js",
@@ -16,6 +16,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.js$/,
+          exclude: /node_modules/,
           use: {
             loader: "babel-loader",
           },

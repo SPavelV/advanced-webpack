@@ -2,8 +2,16 @@
 
 // import "./theme/main.css";
 
-// const element = component();
+// let element = component();
 // document.body.appendChild(element);
+
+// if (module.hot) {
+//   module.hot.accept("./simple-components/dom", function () {
+//     document.body.removeChild(element);
+//     element = component();
+//     document.body.appendChild(element);
+//   });
+// }
 
 // TODO: hot reloading на React
 // 1. react-hot-loader: babel-плагин

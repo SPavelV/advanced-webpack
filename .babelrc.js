@@ -1,14 +1,18 @@
 module.exports = (api) => {
   const env = api.env(); // process.env.BABEL_ENV || process.env.NODE_ENV
-  // api.cach.using(() => env === "development"); // TODO: прорисерчить
+
+  /** Рекомендуется использовать именно эту форму кеширования для лучшей консистентности.
+   * https://babeljs.io/docs/en/config-files#apicache
+   */
+  // api.cach.using(() => env === "development");
 
   api.cache.never();
 
   const plugins = ["@babel/proposal-class-properties"];
 
-  // if (env === "development") {
-  //   plugins.push("react-hot-loader/babel");
-  // }
+  if (env === "development") {
+    plugins.push("react-hot-loader/babel");
+  }
 
   return {
     presets: [
