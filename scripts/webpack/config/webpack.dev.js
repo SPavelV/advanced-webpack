@@ -8,7 +8,7 @@ const getCommonConfig = require("./webpack.common");
 module.exports = () => {
   return merge(getCommonConfig(), {
     mode: "development",
-    devtool: false, // TODO: настроить soruce map
+    devtool: "eval-cheap-module-source-map", // TODO: настроить soruce map
     entry: ["webpack-hot-middleware/client?reload=true&quiet=true"],
     plugins: [new HotModuleReplacementPlugin()],
   });

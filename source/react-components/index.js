@@ -19,6 +19,8 @@ class Toggle extends React.Component {
   };
 
   render() {
+    throw new Error("Boom");
+
     return (
       <section
         className={Styles.toggler}
