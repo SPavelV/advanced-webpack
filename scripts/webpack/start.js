@@ -16,6 +16,7 @@ const webpack = require("webpack");
 const DevServer = require("webpack-dev-server");
 const hot = require("webpack-hot-middleware");
 const chalk = require("chalk"); // Раскрашивает консоль
+const openBrowser = require("react-dev-utils/openBrowser");
 
 // Config
 const getDevConfig = require("./config/webpack.dev");
@@ -48,5 +49,6 @@ server.listen(PORT, HOST, () => {
       `http://${HOST}:${PORT}`
     )}`
   );
+  openBrowser(`http://${HOST}:${PORT}`);
 });
 DevServer.onListening;
