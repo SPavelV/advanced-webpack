@@ -27,6 +27,7 @@ import { HOST, PORT } from "./constants";
 const compiler = webpack(getDevConfig());
 
 const server = new DevServer(compiler, {
+  // memory-fs
   host: HOST,
   port: PORT,
   historyApiFallback: true,

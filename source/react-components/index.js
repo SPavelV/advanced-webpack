@@ -4,6 +4,9 @@ import ReactDOM from "react-dom";
 
 // Styles
 import Styles from "./postcss.css";
+import kitty from "../theme/images/kitty.jpg";
+
+import { Button } from "./Button";
 
 class Toggle extends React.Component {
   constructor(props) {
@@ -19,8 +22,6 @@ class Toggle extends React.Component {
   };
 
   render() {
-    throw new Error("Boom");
-
     return (
       <section
         className={Styles.toggler}
@@ -29,10 +30,11 @@ class Toggle extends React.Component {
           "--headingFontSize": `${this.state.count}px`,
         }}
       >
+        <img src={kitty} alt="" />
         <h1>Test!!!:</h1>
-        <button onClick={this.handleClick}>
+        <Button onClick={this.handleClick}>
           {this.state.isToggleOn ? "Включено!!" : "Выключено"}
-        </button>
+        </Button>
       </section>
     );
   }
