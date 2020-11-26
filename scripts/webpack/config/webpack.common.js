@@ -5,7 +5,6 @@ import merge from "webpack-merge";
 const { SOURCE_DIRECTORY, BUILD_DIRECTORY } = require("../constants");
 
 // Modules
-
 import * as modules from "../modules";
 
 export default () => {
@@ -20,6 +19,7 @@ export default () => {
     },
     modules.loadJavaScript(),
     modules.loadCSS(),
+    modules.loadImages(),
     modules.setupHtml()
   );
 };
