@@ -20,6 +20,7 @@ export default () => {
     modules.loadJavaScript(),
     modules.loadCSS(),
     modules.loadImages(),
+    modules.loadSvg(),
     modules.setupHtml()
   );
 };

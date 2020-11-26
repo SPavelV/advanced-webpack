@@ -5,6 +5,11 @@ import ReactDOM from "react-dom";
 // Styles
 import Styles from "./postcss.css";
 import kitty from "../theme/images/kitty.jpg";
+import { ReactComponent as ReactLogoComponent } from "../theme/images/react.svg";
+import ReactLogo from "../theme/images/react.svg";
+
+console.log("ReactLogoComponent ", ReactLogoComponent);
+console.log("ReactLogo ", ReactLogo);
 
 import { Button } from "./Button";
 
