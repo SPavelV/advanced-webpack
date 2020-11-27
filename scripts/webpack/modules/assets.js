@@ -21,7 +21,7 @@ export const loadImages = () => ({
           {
             loader: "file-loader",
             options: {
-              name: `images/[name].[ext]`,
+              name: "images/[name].[ext]",
             },
           },
         ],
@@ -35,29 +35,25 @@ export const loadSvg = () => ({
     rules: [
       {
         test: /\.svg$/,
-        issuer: {
-          test: /\.js$/,
-        },
+        issuer: /\.js$/,
         use: [
           "@svgr/webpack",
           {
             loader: "file-loader",
             options: {
-              name: "./images/[name].[ext]",
+              name: "images/[name].[ext]",
             },
           },
         ],
       },
       {
         test: /\.svg$/,
-        ussuer: {
-          test: /\.css$/,
-        },
+        issuer: /\.css$/,
         use: [
           {
             loader: "file-loader",
             options: {
-              name: "./images/[name].[ext]",
+              name: "images/[name].[ext]",
             },
           },
         ],
