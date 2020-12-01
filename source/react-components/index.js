@@ -37,7 +37,7 @@ class Toggle extends React.Component {
         <ReactLogoComponent width={50} />
         <img src={reactLogo} />
         <img src={kitty} alt="" />
-        <h1>Test!!!:</h1>
+        <h1>Test!!!!!:</h1>
         <Button onClick={this.handleClick}>
           {this.state.isToggleOn ? "Включено!!!" : "Выключено"}
         </Button>
