@@ -6,7 +6,6 @@ export const loadCSS = () => ({
     rules: [
       // loadCSS
       {
-        // TODO: прокачать загрузку стилей
         test: /\.css$/,
         use: [
           "style-loader",
@@ -54,6 +53,12 @@ export const loadCSS = () => ({
             },
           },
         ],
+      },
+
+      // Load SASS
+      {
+        test: /\.s[ac]ss$/i,
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },

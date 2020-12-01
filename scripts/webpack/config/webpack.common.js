@@ -21,6 +21,7 @@ export default () => {
     modules.loadCSS(),
     modules.loadImages(),
     modules.loadSvg(),
+    modules.loadFonts(),
     modules.setupHtml()
   );
 };

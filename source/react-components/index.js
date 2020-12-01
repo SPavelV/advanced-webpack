@@ -41,7 +41,7 @@ class Toggle extends React.Component {
         <img src={kitty} alt="" />
         <h1>Test!!!:</h1>
         <Button onClick={this.handleClick}>
-          {this.state.isToggleOn ? "Включено!!" : "Выключено"}
+          {this.state.isToggleOn ? "Включено!!!" : "Выключено"}
         </Button>
       </section>
     );
