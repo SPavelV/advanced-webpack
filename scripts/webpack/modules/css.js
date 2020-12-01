@@ -54,11 +54,25 @@ export const loadCSS = () => ({
           },
         ],
       },
+    ],
+  },
+});
 
-      // Load SASS
+export const loadSass = () => ({
+  module: {
+    rules: [
       {
-        test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        test: /\.scss$/,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              modules: true,
+            },
+          },
+          "sass-loader",
+        ],
       },
     ],
   },
