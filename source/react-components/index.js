@@ -5,12 +5,10 @@ import ReactDOM from "react-dom";
 // Styles
 import Styles from "./postcss.css";
 import "./style.scss";
+
 import kitty from "../theme/images/kitty.jpg";
 import { ReactComponent as ReactLogoComponent } from "../theme/images/react.svg";
 import reactLogo from "../theme/images/react.svg";
-
-console.log("ReactLogoComponent ", ReactLogoComponent);
-console.log("reactLogo ", reactLogo);
 
 import { Button } from "./Button";
 
@@ -41,7 +39,7 @@ class Toggle extends React.Component {
         <img src={kitty} alt="" />
         <h1>Test!!!:</h1>
         <Button onClick={this.handleClick}>
-          {this.state.isToggleOn ? "Включено!!!!" : "Выключено"}
+          {this.state.isToggleOn ? "Включено!!!" : "Выключено"}
         </Button>
       </section>
     );

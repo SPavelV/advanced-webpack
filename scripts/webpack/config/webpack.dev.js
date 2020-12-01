@@ -11,5 +11,10 @@ module.exports = () => {
     devtool: "eval-cheap-module-source-map", // TODO: настроить soruce map
     entry: ["webpack-hot-middleware/client?reload=true&quiet=true"],
     plugins: [new HotModuleReplacementPlugin()],
+    resolve: {
+      alias: {
+        "react-dom": "@hot-loader/react-dom",
+      },
+    },
   });
 };
