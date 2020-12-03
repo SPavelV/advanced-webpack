@@ -15,6 +15,7 @@ export default () => {
       output: {
         path: BUILD_DIRECTORY,
         filename: "js/bundle.js",
+        publicPath: "/",
       },
     },
     modules.loadJavaScript(),

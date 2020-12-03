@@ -79,9 +79,6 @@ export const loadProdCss = () => ({
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              publicPath: "../",
-            },
           },
           loadCss({ sourceMap: false }),
           loadPostcss({ sourceMap: false, minify: true }),

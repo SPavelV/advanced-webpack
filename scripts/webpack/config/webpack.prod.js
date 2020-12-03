@@ -20,6 +20,7 @@ module.exports = () => {
       devtool: false,
       plugins: [new CleanWebpackPlugin(cleanOptions)],
     },
-    modules.loadProdCss()
+    modules.loadProdCss(),
+    modules.optimizeImages()
   );
 };
