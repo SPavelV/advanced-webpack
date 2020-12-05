@@ -20,7 +20,7 @@ module.exports = (api) => {
       [
         "@babel/env",
         {
-          debug: false,
+          debug: true,
           spec: true, // specification, делает код более медленным, но более надежным
           loose: false, // делает код более быстрым, но отходит от стандарта
           modules: false, // webpack хорошо работает только с ES2015 модулями

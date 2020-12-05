@@ -16,6 +16,38 @@ import "./theme/main.css";
 // 1. react-hot-loader: babel-плагин
 // 2. react-hot-loader: исходный код
 
-// import "./simple-components/javascript";
+// ! ENV variables
+// 1. Api (ссылка к API - дев или прод)
+// 2. условия (дев или прод)
+// 3. фичи в разработке (feature flags)
 
-import "./react-components";
+// console.log("➡ RELEASE: ", RELEASE);
+// console.log("➡ TWO: ", TWO);
+// console.log("➡ THREE: ", THREE);
+// console.log("➡ FOUR: ", FOUR);
+// console.log("➡ TRUE_SIMPLE: ", TRUE_SIMPLE);
+// console.log("➡ TRUE_STRINGIFIED: ", TRUE_STRINGIFIED);
+
+console.log("__ENV__ ", __ENV__);
+console.log("__DEV__ ", __DEV__);
+console.log("__STAGE__ ", __STAGE__);
+console.log("__PROD__ ", __PROD__);
+
+if (__DEV__) {
+  console.log("➡ dev");
+}
+
+if (__PROD__) {
+  console.log("➡ prod");
+}
+
+// if (process.env.NODE_ENV === "development") {
+//   console.log("➡ development");
+// }
+
+// if (RELEASE === "2.1") {
+//   // код нашей фичи
+// }
+
+// import "./simple-components/javascript";
+// import "./react-components";
