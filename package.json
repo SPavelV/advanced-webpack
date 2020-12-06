@@ -34,6 +34,7 @@
     "cssnano": "^4.1.10",
     "eslint": "^7.13.0",
     "file-loader": "^6.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^4.5.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.1",
@@ -52,6 +53,7 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-hot-middleware": "^2.25.0",
-    "webpack-merge": "^5.4.0"
+    "webpack-merge": "^5.4.0",
+    "webpackbar": "^5.0.0-3"
   }
 }
