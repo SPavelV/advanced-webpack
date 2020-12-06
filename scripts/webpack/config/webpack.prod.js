@@ -11,12 +11,14 @@ export default () => {
   return merge(
     getCommonConfig(),
     {
-      mode: "production",
+      mode: "none",
       devtool: false,
     },
     modules.cleanDirectories(),
     modules.connectBuildProgressIndicator(),
     modules.loadProdCss(),
-    modules.optimizeImages()
+    modules.optimizeImages(),
+    modules.optimizeBuild(),
+    modules.connectBundleAnylizer()
   );
 };

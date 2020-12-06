@@ -25,12 +25,7 @@ export default () => {
           __DEV__: NODE_ENV === "development",
           __STAGE__: NODE_ENV === "development",
           __PROD__: NODE_ENV === "production",
-          // RELEASE: "2.0",
-          // TWO: "1+1",
-          // THREE: JSON.stringify(3),
-          // FOUR: 4,
-          // TRUE_STRINGIFIED: JSON.stringify(true),
-          // TRUE_SIMPLE: true,
+
           // HELLO_SIMPLE: "hello",
           // HELLO_STRINGIFIED: JSON.stringify("hello"),
         }),

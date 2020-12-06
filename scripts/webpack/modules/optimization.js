@@ -3,6 +3,12 @@ import imageminMozjpeg from "imagemin-mozjpeg";
 import imageminPngquant from "imagemin-pngquant";
 import imageminSvgo from "imagemin-svgo";
 
+export const optimizeBuild = () => ({
+  optimization: {
+    nodeEnv: "production",
+  },
+});
+
 export const optimizeImages = () => ({
   plugins: [
     new ImageminWebpackPlugin({
