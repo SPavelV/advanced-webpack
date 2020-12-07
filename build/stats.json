@@ -1,161 +1,16 @@
 {
-  "hash": "0a4af6ac57f4099f86bc",
+  "hash": "65102ecea79394f7e44e",
   "version": "5.9.0",
-  "time": 1093,
-  "builtAt": 1607279621864,
+  "time": 997,
+  "builtAt": 1607361998460,
   "publicPath": "/",
   "outputPath": "G:\\learn\\webpack-advanced\\build",
   "assetsByChunkName": {
     "main": [
-      "css/main.0.css",
       "js/bundle.js"
     ]
   },
   "assets": [
-    {
-      "type": "asset",
-      "name": "fonts/Roboto-Italic.woff",
-      "size": 99060,
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "main"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "sourceFilename": "source/theme/fonts/Roboto/Roboto-Italic.woff",
-        "size": 99060
-      },
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [
-        0
-      ],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "fonts/Roboto-Bold.woff",
-      "size": 93700,
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "main"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "sourceFilename": "source/theme/fonts/Roboto/Roboto-Bold.woff",
-        "size": 93700
-      },
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [
-        0
-      ],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "fonts/Roboto-Regular.woff",
-      "size": 93388,
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "main"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "sourceFilename": "source/theme/fonts/Roboto/Roboto-Regular.woff",
-        "size": 93388
-      },
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [
-        0
-      ],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "fonts/Roboto-Italic.woff2",
-      "size": 71468,
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "main"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "sourceFilename": "source/theme/fonts/Roboto/Roboto-Italic.woff2",
-        "size": 71468
-      },
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [
-        0
-      ],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "fonts/Roboto-Bold.woff2",
-      "size": 65972,
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "main"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "sourceFilename": "source/theme/fonts/Roboto/Roboto-Bold.woff2",
-        "size": 65972
-      },
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [
-        0
-      ],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "fonts/Roboto-Regular.woff2",
-      "size": 65916,
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "main"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "sourceFilename": "source/theme/fonts/Roboto/Roboto-Regular.woff2",
-        "size": 65916
-      },
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [
-        0
-      ],
-      "isOverSizeLimit": false
-    },
     {
       "type": "asset",
       "name": "favicon.ico",
@@ -178,7 +33,7 @@
     {
       "type": "asset",
       "name": "js/bundle.js",
-      "size": 3548,
+      "size": 4398,
       "chunkNames": [
         "main"
       ],
@@ -190,30 +45,7 @@
       "cached": false,
       "info": {
         "javascriptModule": false,
-        "size": 3548
-      },
-      "related": {},
-      "chunks": [
-        0
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "css/main.0.css",
-      "size": 845,
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 845
+        "size": 4398
       },
       "related": {},
       "chunks": [
@@ -225,7 +57,7 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 394,
+      "size": 348,
       "chunkNames": [],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
@@ -234,7 +66,7 @@
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 394
+        "size": 348
       },
       "related": {},
       "chunks": [],
@@ -248,11 +80,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2559,
+      "size": 2184,
       "sizes": {
-        "javascript": 1442,
-        "css/mini-extract": 843,
-        "runtime": 274
+        "javascript": 1516,
+        "runtime": 668
       },
       "names": [
         "main"
@@ -262,18 +93,10 @@
         "main"
       ],
       "files": [
-        "css/main.0.css",
         "js/bundle.js"
       ],
-      "auxiliaryFiles": [
-        "fonts/Roboto-Bold.woff",
-        "fonts/Roboto-Bold.woff2",
-        "fonts/Roboto-Italic.woff",
-        "fonts/Roboto-Italic.woff2",
-        "fonts/Roboto-Regular.woff",
-        "fonts/Roboto-Regular.woff2"
-      ],
-      "hash": "9d9ce246f13743059539",
+      "auxiliaryFiles": [],
+      "hash": "36192dae17f84a618411",
       "childrenByOrder": {},
       "id": 0,
       "siblings": [],
@@ -288,11 +111,11 @@
           "nameForCondition": "G:\\learn\\webpack-advanced\\source\\index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 3,
-          "postOrderIndex": 3,
-          "size": 1392,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 1368,
           "sizes": {
-            "javascript": 1392
+            "javascript": 1368
           },
           "cacheable": true,
           "built": true,
@@ -337,16 +160,16 @@
         {
           "type": "module",
           "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "name": "./source/theme/main.css",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\main.css",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+          "name": "./source/simple-components/dom.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
           "index": 1,
           "preOrderIndex": 1,
-          "index2": 2,
-          "postOrderIndex": 2,
-          "size": 50,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 148,
           "sizes": {
-            "javascript": 50
+            "javascript": 148
           },
           "cacheable": true,
           "built": true,
@@ -372,14 +195,7 @@
           "chunks": [
             0
           ],
-          "assets": [
-            "fonts/Roboto-Regular.woff2",
-            "fonts/Roboto-Regular.woff",
-            "fonts/Roboto-Bold.woff2",
-            "fonts/Roboto-Bold.woff",
-            "fonts/Roboto-Italic.woff2",
-            "fonts/Roboto-Italic.woff"
-          ],
+          "assets": [],
           "reasons": [
             {
               "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
@@ -390,142 +206,100 @@
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
-              "userRequest": "./theme/main.css",
-              "loc": "2:0-26",
+              "userRequest": "./simple-components/dom",
+              "loc": "1:0-48",
+              "moduleId": 0,
+              "resolvedModuleId": 0
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "module": "./source/index.js",
+              "moduleName": "./source/index.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "resolvedModule": "./source/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./simple-components/dom",
+              "loc": "3:14-23",
               "moduleId": 0,
               "resolvedModuleId": 0
             }
           ],
           "usedExports": null,
-          "providedExports": [],
+          "providedExports": [
+            "default"
+          ],
           "optimizationBailout": [],
           "depth": 1
         },
         {
           "type": "module",
-          "moduleType": "css/mini-extract",
-          "identifier": "css G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css 0",
-          "name": "css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "index": 3,
-          "preOrderIndex": 3,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "size": 177,
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 308,
           "sizes": {
-            "css/mini-extract": 177
+            "runtime": 308
           },
           "built": false,
           "codeGenerated": true,
           "cached": false,
           "optional": false,
           "orphan": false,
-          "dependent": true,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "issuerName": "./source/theme/main.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "name": "./source/index.js",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./source/theme/main.css",
-              "id": 1
-            }
-          ],
+          "dependent": false,
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": null,
-          "issuerId": 1,
+          "id": "",
           "chunks": [
             0
           ],
           "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "module": "./source/theme/main.css",
-              "moduleName": "./source/theme/main.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "resolvedModule": "./source/theme/main.css",
-              "type": "unknown",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "moduleId": 1,
-              "resolvedModuleId": 1
-            }
-          ],
+          "reasons": [],
           "usedExports": null,
-          "providedExports": null,
+          "providedExports": [],
           "optimizationBailout": [],
-          "depth": 2
+          "depth": null
         },
         {
           "type": "module",
-          "moduleType": "css/mini-extract",
-          "identifier": "css G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css 0",
-          "name": "css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "index": 2,
-          "preOrderIndex": 2,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "size": 666,
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 86,
           "sizes": {
-            "css/mini-extract": 666
+            "runtime": 86
           },
           "built": false,
           "codeGenerated": true,
           "cached": false,
           "optional": false,
           "orphan": false,
-          "dependent": true,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "issuerName": "./source/theme/main.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "name": "./source/index.js",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./source/theme/main.css",
-              "id": 1
-            }
-          ],
+          "dependent": false,
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": null,
-          "issuerId": 1,
+          "id": "",
           "chunks": [
             0
           ],
           "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "module": "./source/theme/main.css",
-              "moduleName": "./source/theme/main.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "resolvedModule": "./source/theme/main.css",
-              "type": "unknown",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "moduleId": 1,
-              "resolvedModuleId": 1
-            }
-          ],
+          "reasons": [],
           "usedExports": null,
-          "providedExports": null,
+          "providedExports": [],
           "optimizationBailout": [],
-          "depth": 2
+          "depth": null
         },
         {
           "type": "module",
@@ -582,11 +356,11 @@
       "nameForCondition": "G:\\learn\\webpack-advanced\\source\\index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 3,
-      "postOrderIndex": 3,
-      "size": 1392,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 1368,
       "sizes": {
-        "javascript": 1392
+        "javascript": 1368
       },
       "cacheable": true,
       "built": true,
@@ -630,16 +404,16 @@
     {
       "type": "module",
       "moduleType": "javascript/auto",
-      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-      "name": "./source/theme/main.css",
-      "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\main.css",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+      "name": "./source/simple-components/dom.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
       "index": 1,
       "preOrderIndex": 1,
-      "index2": 2,
-      "postOrderIndex": 2,
-      "size": 50,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 148,
       "sizes": {
-        "javascript": 50
+        "javascript": 148
       },
       "cacheable": true,
       "built": true,
@@ -664,14 +438,7 @@
       "chunks": [
         0
       ],
-      "assets": [
-        "fonts/Roboto-Regular.woff2",
-        "fonts/Roboto-Regular.woff",
-        "fonts/Roboto-Bold.woff2",
-        "fonts/Roboto-Bold.woff",
-        "fonts/Roboto-Italic.woff2",
-        "fonts/Roboto-Italic.woff"
-      ],
+      "assets": [],
       "reasons": [
         {
           "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
@@ -682,140 +449,98 @@
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
-          "userRequest": "./theme/main.css",
-          "loc": "2:0-26",
+          "userRequest": "./simple-components/dom",
+          "loc": "1:0-48",
+          "moduleId": 0,
+          "resolvedModuleId": 0
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "module": "./source/index.js",
+          "moduleName": "./source/index.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "resolvedModule": "./source/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./simple-components/dom",
+          "loc": "3:14-23",
           "moduleId": 0,
           "resolvedModuleId": 0
         }
       ],
       "usedExports": null,
-      "providedExports": [],
+      "providedExports": [
+        "default"
+      ],
       "optimizationBailout": [],
       "depth": 1
     },
     {
       "type": "module",
-      "moduleType": "css/mini-extract",
-      "identifier": "css G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css 0",
-      "name": "css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-      "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-      "index": 2,
-      "preOrderIndex": 2,
-      "index2": 0,
-      "postOrderIndex": 0,
-      "size": 666,
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 308,
       "sizes": {
-        "css/mini-extract": 666
+        "runtime": 308
       },
       "built": false,
       "codeGenerated": true,
       "cached": false,
       "optional": false,
       "orphan": false,
-      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-      "issuerName": "./source/theme/main.css",
-      "issuerPath": [
-        {
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-          "name": "./source/index.js",
-          "id": 0
-        },
-        {
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "name": "./source/theme/main.css",
-          "id": 1
-        }
-      ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": null,
-      "issuerId": 1,
+      "id": "",
       "chunks": [
         0
       ],
       "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "module": "./source/theme/main.css",
-          "moduleName": "./source/theme/main.css",
-          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "resolvedModule": "./source/theme/main.css",
-          "type": "unknown",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "moduleId": 1,
-          "resolvedModuleId": 1
-        }
-      ],
+      "reasons": [],
       "usedExports": null,
-      "providedExports": null,
+      "providedExports": [],
       "optimizationBailout": [],
-      "depth": 2
+      "depth": null
     },
     {
       "type": "module",
-      "moduleType": "css/mini-extract",
-      "identifier": "css G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css 0",
-      "name": "css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-      "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-      "index": 3,
-      "preOrderIndex": 3,
-      "index2": 1,
-      "postOrderIndex": 1,
-      "size": 177,
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 86,
       "sizes": {
-        "css/mini-extract": 177
+        "runtime": 86
       },
       "built": false,
       "codeGenerated": true,
       "cached": false,
       "optional": false,
       "orphan": false,
-      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-      "issuerName": "./source/theme/main.css",
-      "issuerPath": [
-        {
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-          "name": "./source/index.js",
-          "id": 0
-        },
-        {
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "name": "./source/theme/main.css",
-          "id": 1
-        }
-      ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": null,
-      "issuerId": 1,
+      "id": "",
       "chunks": [
         0
       ],
       "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "module": "./source/theme/main.css",
-          "moduleName": "./source/theme/main.css",
-          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "resolvedModule": "./source/theme/main.css",
-          "type": "unknown",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "moduleId": 1,
-          "resolvedModuleId": 1
-        }
-      ],
+      "reasons": [],
       "usedExports": null,
-      "providedExports": null,
+      "providedExports": [],
       "optimizationBailout": [],
-      "depth": 2
+      "depth": null
     },
     {
       "type": "module",
@@ -859,44 +584,15 @@
       ],
       "assets": [
         {
-          "name": "css/main.0.css",
-          "size": 845
-        },
-        {
           "name": "js/bundle.js",
-          "size": 3548
+          "size": 4398
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4393,
-      "auxiliaryAssets": [
-        {
-          "name": "fonts/Roboto-Bold.woff",
-          "size": 93700
-        },
-        {
-          "name": "fonts/Roboto-Bold.woff2",
-          "size": 65972
-        },
-        {
-          "name": "fonts/Roboto-Italic.woff",
-          "size": 99060
-        },
-        {
-          "name": "fonts/Roboto-Italic.woff2",
-          "size": 71468
-        },
-        {
-          "name": "fonts/Roboto-Regular.woff",
-          "size": 93388
-        },
-        {
-          "name": "fonts/Roboto-Regular.woff2",
-          "size": 65916
-        }
-      ],
+      "assetsSize": 4398,
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 489504,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -910,44 +606,15 @@
       ],
       "assets": [
         {
-          "name": "css/main.0.css",
-          "size": 845
-        },
-        {
           "name": "js/bundle.js",
-          "size": 3548
+          "size": 4398
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4393,
-      "auxiliaryAssets": [
-        {
-          "name": "fonts/Roboto-Bold.woff",
-          "size": 93700
-        },
-        {
-          "name": "fonts/Roboto-Bold.woff2",
-          "size": 65972
-        },
-        {
-          "name": "fonts/Roboto-Italic.woff",
-          "size": 99060
-        },
-        {
-          "name": "fonts/Roboto-Italic.woff2",
-          "size": 71468
-        },
-        {
-          "name": "fonts/Roboto-Regular.woff",
-          "size": 93388
-        },
-        {
-          "name": "fonts/Roboto-Regular.woff2",
-          "size": 65916
-        }
-      ],
+      "assetsSize": 4398,
+      "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 489504,
+      "auxiliaryAssetsSize": 0,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -962,8 +629,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "a31b4b501149bbfb357d",
       "version": "5.9.0",
-      "time": 80,
-      "builtAt": 1607279620881,
+      "time": 101,
+      "builtAt": 1607361997672,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {
@@ -1240,2458 +907,6 @@
           "auxiliaryAssets": [],
           "filteredAuxiliaryAssets": 0,
           "auxiliaryAssetsSize": 0,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "errors": [],
-      "errorsCount": 0,
-      "warnings": [],
-      "warningsCount": 0,
-      "children": []
-    },
-    {
-      "name": "mini-css-extract-plugin G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-      "hash": "ec97bd03d438b3eb89b1",
-      "version": "5.9.0",
-      "time": 646,
-      "builtAt": 1607279621801,
-      "publicPath": "/",
-      "outputPath": "G:\\learn\\webpack-advanced\\build",
-      "assetsByChunkName": {},
-      "assets": [
-        {
-          "type": "asset",
-          "name": "fonts/Roboto-Italic.woff",
-          "size": 99060,
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "mini-css-extract-plugin"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "sourceFilename": "source/theme/fonts/Roboto/Roboto-Italic.woff"
-          },
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            0
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "asset",
-          "name": "fonts/Roboto-Bold.woff",
-          "size": 93700,
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "mini-css-extract-plugin"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "sourceFilename": "source/theme/fonts/Roboto/Roboto-Bold.woff"
-          },
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            0
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "asset",
-          "name": "fonts/Roboto-Regular.woff",
-          "size": 93388,
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "mini-css-extract-plugin"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "sourceFilename": "source/theme/fonts/Roboto/Roboto-Regular.woff"
-          },
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            0
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "asset",
-          "name": "fonts/Roboto-Italic.woff2",
-          "size": 71468,
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "mini-css-extract-plugin"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "sourceFilename": "source/theme/fonts/Roboto/Roboto-Italic.woff2"
-          },
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            0
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "asset",
-          "name": "fonts/Roboto-Bold.woff2",
-          "size": 65972,
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "mini-css-extract-plugin"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "sourceFilename": "source/theme/fonts/Roboto/Roboto-Bold.woff2"
-          },
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            0
-          ],
-          "isOverSizeLimit": false
-        },
-        {
-          "type": "asset",
-          "name": "fonts/Roboto-Regular.woff2",
-          "size": 65916,
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "mini-css-extract-plugin"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "sourceFilename": "source/theme/fonts/Roboto/Roboto-Regular.woff2"
-          },
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            0
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        {
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "recorded": false,
-          "size": 6766,
-          "sizes": {
-            "javascript": 5807,
-            "runtime": 959
-          },
-          "names": [
-            "mini-css-extract-plugin"
-          ],
-          "idHints": [],
-          "runtime": [
-            "mini-css-extract-plugin"
-          ],
-          "files": [],
-          "auxiliaryFiles": [
-            "fonts/Roboto-Bold.woff",
-            "fonts/Roboto-Bold.woff2",
-            "fonts/Roboto-Italic.woff",
-            "fonts/Roboto-Italic.woff2",
-            "fonts/Roboto-Regular.woff",
-            "fonts/Roboto-Regular.woff2"
-          ],
-          "hash": "e4cc2d04ea4465e502a4",
-          "childrenByOrder": {},
-          "id": 0,
-          "siblings": [],
-          "parents": [],
-          "children": [],
-          "modules": [
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "index": 0,
-              "preOrderIndex": 0,
-              "index2": 9,
-              "postOrderIndex": 9,
-              "size": 686,
-              "sizes": {
-                "javascript": 686
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 0,
-              "issuerId": null,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": "entry",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "!!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "loc": "mini-css-extract-plugin",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "resolvedModuleIdentifier": null,
-                  "resolvedModule": null,
-                  "type": null,
-                  "active": true,
-                  "explanation": "used as library export",
-                  "userRequest": null,
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 0
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "index": 2,
-              "preOrderIndex": 2,
-              "index2": 8,
-              "postOrderIndex": 8,
-              "size": 2277,
-              "sizes": {
-                "javascript": 2277
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 2,
-              "issuerId": 0,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "-!../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./fonts/Roboto/index.css",
-                  "loc": "3:0-145",
-                  "moduleId": 0,
-                  "resolvedModuleId": 0
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "-!../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./fonts/Roboto/index.css",
-                  "loc": "5:26-59",
-                  "moduleId": 0,
-                  "resolvedModuleId": 0
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 1
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-              "name": "./node_modules/css-loader/dist/runtime/api.js",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-              "index": 1,
-              "preOrderIndex": 1,
-              "index2": 0,
-              "postOrderIndex": 0,
-              "size": 1605,
-              "sizes": {
-                "javascript": 1605
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 1,
-              "issuerId": 0,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "2:0-92",
-                  "moduleId": 0,
-                  "resolvedModuleId": 0
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "4:30-57",
-                  "moduleId": 0,
-                  "resolvedModuleId": 0
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "2:0-98",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
-                  "loc": "10:30-57",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-                  "module": "./node_modules/css-loader/dist/runtime/api.js",
-                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "9:0-14",
-                  "moduleId": 1,
-                  "resolvedModuleId": 1
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 9:0-14"
-              ],
-              "depth": 1
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-              "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-              "index": 3,
-              "preOrderIndex": 3,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "size": 830,
-              "sizes": {
-                "javascript": 830
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                },
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "id": 2
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 3,
-              "issuerId": 2,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-                  "loc": "3:0-105",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-                  "loc": "11:41-72",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-                  "loc": "12:41-72",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-                  "loc": "13:41-72",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-                  "loc": "14:41-72",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-                  "loc": "15:41-72",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-                  "loc": "16:41-72",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-                  "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
-                  "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-                  "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
-                  "type": "cjs self exports reference",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": null,
-                  "loc": "3:0-14",
-                  "moduleId": 3,
-                  "resolvedModuleId": 3
-                }
-              ],
-              "usedExports": null,
-              "providedExports": null,
-              "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 3:0-14"
-              ],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff",
-              "name": "./source/theme/fonts/Roboto/Roboto-Bold.woff",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff",
-              "index": 7,
-              "preOrderIndex": 7,
-              "index2": 5,
-              "postOrderIndex": 5,
-              "size": 66,
-              "sizes": {
-                "javascript": 66
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                },
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "id": 2
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 7,
-              "issuerId": 2,
-              "chunks": [
-                0
-              ],
-              "assets": [
-                "fonts/Roboto-Bold.woff"
-              ],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Bold.woff",
-                  "loc": "7:0-63",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Bold.woff",
-                  "loc": "14:73-102",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff2",
-              "name": "./source/theme/fonts/Roboto/Roboto-Bold.woff2",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff2",
-              "index": 6,
-              "preOrderIndex": 6,
-              "index2": 4,
-              "postOrderIndex": 4,
-              "size": 67,
-              "sizes": {
-                "javascript": 67
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                },
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "id": 2
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 6,
-              "issuerId": 2,
-              "chunks": [
-                0
-              ],
-              "assets": [
-                "fonts/Roboto-Bold.woff2"
-              ],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Bold.woff2",
-                  "loc": "6:0-64",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Bold.woff2",
-                  "loc": "13:73-102",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff",
-              "name": "./source/theme/fonts/Roboto/Roboto-Italic.woff",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff",
-              "index": 9,
-              "preOrderIndex": 9,
-              "index2": 7,
-              "postOrderIndex": 7,
-              "size": 68,
-              "sizes": {
-                "javascript": 68
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                },
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "id": 2
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 9,
-              "issuerId": 2,
-              "chunks": [
-                0
-              ],
-              "assets": [
-                "fonts/Roboto-Italic.woff"
-              ],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Italic.woff",
-                  "loc": "9:0-65",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Italic.woff",
-                  "loc": "16:73-102",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff2",
-              "name": "./source/theme/fonts/Roboto/Roboto-Italic.woff2",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff2",
-              "index": 8,
-              "preOrderIndex": 8,
-              "index2": 6,
-              "postOrderIndex": 6,
-              "size": 69,
-              "sizes": {
-                "javascript": 69
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                },
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "id": 2
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 8,
-              "issuerId": 2,
-              "chunks": [
-                0
-              ],
-              "assets": [
-                "fonts/Roboto-Italic.woff2"
-              ],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Italic.woff2",
-                  "loc": "8:0-66",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Italic.woff2",
-                  "loc": "15:73-102",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff",
-              "name": "./source/theme/fonts/Roboto/Roboto-Regular.woff",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff",
-              "index": 5,
-              "preOrderIndex": 5,
-              "index2": 3,
-              "postOrderIndex": 3,
-              "size": 69,
-              "sizes": {
-                "javascript": 69
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                },
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "id": 2
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 5,
-              "issuerId": 2,
-              "chunks": [
-                0
-              ],
-              "assets": [
-                "fonts/Roboto-Regular.woff"
-              ],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Regular.woff",
-                  "loc": "5:0-66",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Regular.woff",
-                  "loc": "12:73-102",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "javascript/auto",
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff2",
-              "name": "./source/theme/fonts/Roboto/Roboto-Regular.woff2",
-              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff2",
-              "index": 4,
-              "preOrderIndex": 4,
-              "index2": 2,
-              "postOrderIndex": 2,
-              "size": 70,
-              "sizes": {
-                "javascript": 70
-              },
-              "cacheable": true,
-              "built": true,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "issuerPath": [
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-                  "id": 0
-                },
-                {
-                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "id": 2
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 4,
-              "issuerId": 2,
-              "chunks": [
-                0
-              ],
-              "assets": [
-                "fonts/Roboto-Regular.woff2"
-              ],
-              "reasons": [
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Regular.woff2",
-                  "loc": "4:0-67",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                },
-                {
-                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "./Roboto-Regular.woff2",
-                  "loc": "11:73-102",
-                  "moduleId": 2,
-                  "resolvedModuleId": 2
-                }
-              ],
-              "usedExports": null,
-              "providedExports": [
-                "default"
-              ],
-              "optimizationBailout": [],
-              "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "identifier": "webpack/runtime/compat get default export",
-              "name": "webpack/runtime/compat get default export",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "size": 263,
-              "sizes": {
-                "runtime": 263
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "identifier": "webpack/runtime/define property getters",
-              "name": "webpack/runtime/define property getters",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "size": 308,
-              "sizes": {
-                "runtime": 308
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "identifier": "webpack/runtime/hasOwnProperty shorthand",
-              "name": "webpack/runtime/hasOwnProperty shorthand",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "size": 86,
-              "sizes": {
-                "runtime": 86
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "identifier": "webpack/runtime/make namespace object",
-              "name": "webpack/runtime/make namespace object",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "size": 274,
-              "sizes": {
-                "runtime": 274
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            },
-            {
-              "type": "module",
-              "moduleType": "runtime",
-              "identifier": "webpack/runtime/publicPath",
-              "name": "webpack/runtime/publicPath",
-              "nameForCondition": null,
-              "index": null,
-              "preOrderIndex": null,
-              "index2": null,
-              "postOrderIndex": null,
-              "size": 28,
-              "sizes": {
-                "runtime": 28
-              },
-              "built": false,
-              "codeGenerated": true,
-              "cached": false,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": "",
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "reasons": [],
-              "usedExports": null,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": null
-            }
-          ],
-          "origins": [
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "mini-css-extract-plugin",
-              "request": "!!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css"
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "index": 0,
-          "preOrderIndex": 0,
-          "index2": 9,
-          "postOrderIndex": 9,
-          "size": 686,
-          "sizes": {
-            "javascript": 686
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 0,
-          "issuerId": null,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!!G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "loc": "mini-css-extract-plugin",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": null,
-              "active": true,
-              "explanation": "used as library export",
-              "userRequest": null,
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-          "name": "./node_modules/css-loader/dist/runtime/api.js",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-          "index": 1,
-          "preOrderIndex": 1,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "size": 1605,
-          "sizes": {
-            "javascript": 1605
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 1,
-          "issuerId": 0,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "2:0-92",
-              "moduleId": 0,
-              "resolvedModuleId": 0
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "4:30-57",
-              "moduleId": 0,
-              "resolvedModuleId": 0
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "2:0-98",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "10:30-57",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-              "module": "./node_modules/css-loader/dist/runtime/api.js",
-              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\api.js",
-              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "9:0-14",
-              "moduleId": 1,
-              "resolvedModuleId": 1
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 9:0-14"
-          ],
-          "depth": 1
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "index": 2,
-          "preOrderIndex": 2,
-          "index2": 8,
-          "postOrderIndex": 8,
-          "size": 2277,
-          "sizes": {
-            "javascript": 2277
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 2,
-          "issuerId": 0,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "-!../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./fonts/Roboto/index.css",
-              "loc": "3:0-145",
-              "moduleId": 0,
-              "resolvedModuleId": 0
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "-!../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./fonts/Roboto/index.css",
-              "loc": "5:26-59",
-              "moduleId": 0,
-              "resolvedModuleId": 0
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 1
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-          "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-          "index": 3,
-          "preOrderIndex": 3,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "size": 830,
-          "sizes": {
-            "javascript": 830
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "id": 2
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 3,
-          "issuerId": 2,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-              "loc": "3:0-105",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-              "loc": "11:41-72",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-              "loc": "12:41-72",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-              "loc": "13:41-72",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-              "loc": "14:41-72",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-              "loc": "15:41-72",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../../../node_modules/css-loader/dist/runtime/getUrl.js",
-              "loc": "16:41-72",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-              "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
-              "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
-              "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "3:0-14",
-              "moduleId": 3,
-              "resolvedModuleId": 3
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 3:0-14"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff2",
-          "name": "./source/theme/fonts/Roboto/Roboto-Regular.woff2",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff2",
-          "index": 4,
-          "preOrderIndex": 4,
-          "index2": 2,
-          "postOrderIndex": 2,
-          "size": 70,
-          "sizes": {
-            "javascript": 70
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "id": 2
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 4,
-          "issuerId": 2,
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "fonts/Roboto-Regular.woff2"
-          ],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Regular.woff2",
-              "loc": "4:0-67",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Regular.woff2",
-              "loc": "11:73-102",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff",
-          "name": "./source/theme/fonts/Roboto/Roboto-Regular.woff",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Regular.woff",
-          "index": 5,
-          "preOrderIndex": 5,
-          "index2": 3,
-          "postOrderIndex": 3,
-          "size": 69,
-          "sizes": {
-            "javascript": 69
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "id": 2
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 5,
-          "issuerId": 2,
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "fonts/Roboto-Regular.woff"
-          ],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Regular.woff",
-              "loc": "5:0-66",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Regular.woff",
-              "loc": "12:73-102",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff2",
-          "name": "./source/theme/fonts/Roboto/Roboto-Bold.woff2",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff2",
-          "index": 6,
-          "preOrderIndex": 6,
-          "index2": 4,
-          "postOrderIndex": 4,
-          "size": 67,
-          "sizes": {
-            "javascript": 67
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "id": 2
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 6,
-          "issuerId": 2,
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "fonts/Roboto-Bold.woff2"
-          ],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Bold.woff2",
-              "loc": "6:0-64",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Bold.woff2",
-              "loc": "13:73-102",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff",
-          "name": "./source/theme/fonts/Roboto/Roboto-Bold.woff",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Bold.woff",
-          "index": 7,
-          "preOrderIndex": 7,
-          "index2": 5,
-          "postOrderIndex": 5,
-          "size": 66,
-          "sizes": {
-            "javascript": 66
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "id": 2
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 7,
-          "issuerId": 2,
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "fonts/Roboto-Bold.woff"
-          ],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Bold.woff",
-              "loc": "7:0-63",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Bold.woff",
-              "loc": "14:73-102",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff2",
-          "name": "./source/theme/fonts/Roboto/Roboto-Italic.woff2",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff2",
-          "index": 8,
-          "preOrderIndex": 8,
-          "index2": 6,
-          "postOrderIndex": 6,
-          "size": 69,
-          "sizes": {
-            "javascript": 69
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "id": 2
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 8,
-          "issuerId": 2,
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "fonts/Roboto-Italic.woff2"
-          ],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Italic.woff2",
-              "loc": "8:0-66",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Italic.woff2",
-              "loc": "15:73-102",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\file-loader\\dist\\cjs.js??ruleSet[1].rules[5].use[0]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff",
-          "name": "./source/theme/fonts/Roboto/Roboto-Italic.woff",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\Roboto-Italic.woff",
-          "index": 9,
-          "preOrderIndex": 9,
-          "index2": 7,
-          "postOrderIndex": 7,
-          "size": 68,
-          "sizes": {
-            "javascript": 68
-          },
-          "cacheable": true,
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./source/theme/main.css",
-              "id": 0
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "id": 2
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 9,
-          "issuerId": 2,
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "fonts/Roboto-Italic.woff"
-          ],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Italic.woff",
-              "loc": "9:0-65",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\source\\theme\\fonts\\Roboto\\index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./source/theme/fonts/Roboto/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./Roboto-Italic.woff",
-              "loc": "16:73-102",
-              "moduleId": 2,
-              "resolvedModuleId": 2
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "identifier": "webpack/runtime/compat get default export",
-          "name": "webpack/runtime/compat get default export",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "size": 263,
-          "sizes": {
-            "runtime": 263
-          },
-          "built": false,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "identifier": "webpack/runtime/define property getters",
-          "name": "webpack/runtime/define property getters",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "size": 308,
-          "sizes": {
-            "runtime": 308
-          },
-          "built": false,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "identifier": "webpack/runtime/hasOwnProperty shorthand",
-          "name": "webpack/runtime/hasOwnProperty shorthand",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "size": 86,
-          "sizes": {
-            "runtime": 86
-          },
-          "built": false,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "identifier": "webpack/runtime/make namespace object",
-          "name": "webpack/runtime/make namespace object",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "size": 274,
-          "sizes": {
-            "runtime": 274
-          },
-          "built": false,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "identifier": "webpack/runtime/publicPath",
-          "name": "webpack/runtime/publicPath",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "size": 28,
-          "sizes": {
-            "runtime": 28
-          },
-          "built": false,
-          "codeGenerated": true,
-          "cached": false,
-          "optional": false,
-          "orphan": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        }
-      ],
-      "entrypoints": {
-        "mini-css-extract-plugin": {
-          "name": "mini-css-extract-plugin",
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [
-            {
-              "name": "fonts/Roboto-Bold.woff"
-            },
-            {
-              "name": "fonts/Roboto-Bold.woff2"
-            },
-            {
-              "name": "fonts/Roboto-Italic.woff"
-            },
-            {
-              "name": "fonts/Roboto-Italic.woff2"
-            },
-            {
-              "name": "fonts/Roboto-Regular.woff"
-            },
-            {
-              "name": "fonts/Roboto-Regular.woff2"
-            }
-          ],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": null,
-          "children": {},
-          "childAssets": {},
-          "isOverSizeLimit": false
-        }
-      },
-      "namedChunkGroups": {
-        "mini-css-extract-plugin": {
-          "name": "mini-css-extract-plugin",
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "filteredAssets": 0,
-          "assetsSize": 0,
-          "auxiliaryAssets": [
-            {
-              "name": "fonts/Roboto-Bold.woff"
-            },
-            {
-              "name": "fonts/Roboto-Bold.woff2"
-            },
-            {
-              "name": "fonts/Roboto-Italic.woff"
-            },
-            {
-              "name": "fonts/Roboto-Italic.woff2"
-            },
-            {
-              "name": "fonts/Roboto-Regular.woff"
-            },
-            {
-              "name": "fonts/Roboto-Regular.woff2"
-            }
-          ],
-          "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": null,
           "children": {},
           "childAssets": {},
           "isOverSizeLimit": false

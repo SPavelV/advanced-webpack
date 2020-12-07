@@ -17,8 +17,8 @@ export default () => {
     modules.cleanDirectories(),
     modules.connectBuildProgressIndicator(),
     modules.loadProdCss(),
-    modules.optimizeImages(),
     modules.optimizeBuild(),
+    modules.optimizeImages(),
     modules.connectBundleAnylizer()
   );
 };

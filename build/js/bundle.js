@@ -5,18 +5,13 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _theme_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-// import component from "./simple-components/dom";
- // let element = component();
-// document.body.appendChild(element);
-// if (module.hot) {
-//   module.hot.accept("./simple-components/dom", function () {
-//     document.body.removeChild(element);
-//     element = component();
-//     document.body.appendChild(element);
-//   });
-// }
-// TODO: hot reloading на React
+/* harmony import */ var _simple_components_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+ // import "./theme/main.css";
+
+let element = (0,_simple_components_dom__WEBPACK_IMPORTED_MODULE_0__.default)();
+document.body.appendChild(element);
+
+if (false) {} // TODO: hot reloading на React
 // 1. react-hot-loader: babel-плагин
 // 2. react-hot-loader: исходный код
 // ! ENV variables
@@ -29,6 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 // console.log("➡ FOUR: ", FOUR);
 // console.log("➡ TRUE_SIMPLE: ", TRUE_SIMPLE);
 // console.log("➡ TRUE_STRINGIFIED: ", TRUE_STRINGIFIED);
+
 
 console.log("__ENV__ ", "production");
 console.log("__DEV__ ", false);
@@ -53,8 +49,14 @@ if (true) {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((text = "Hello🎉🎉🎉") => {
+  const element = document.createElement("div");
+  element.innerHTML = text;
+  return element;
+});
 
 /***/ })
 /******/ 	]);
@@ -83,6 +85,23 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
