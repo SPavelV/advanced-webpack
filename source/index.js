@@ -1,8 +1,18 @@
 import component from "./simple-components/dom";
+import moment from "moment";
+const now = moment.now();
+moment.locale("en");
+
+import "./simple-components/javascript";
 // import "./theme/main.css";
+// import "./react-components";
 
 let element = component();
 document.body.appendChild(element);
+
+// TODO: hot reloading на React
+// 1. react-hot-loader: babel-плагин
+// 2. react-hot-loader: исходный код
 
 if (module.hot) {
   module.hot.accept("./simple-components/dom", function () {
@@ -11,10 +21,6 @@ if (module.hot) {
     document.body.appendChild(element);
   });
 }
-
-// TODO: hot reloading на React
-// 1. react-hot-loader: babel-плагин
-// 2. react-hot-loader: исходный код
 
 // ! ENV variables
 // 1. Api (ссылка к API - дев или прод)
@@ -48,6 +54,3 @@ if (__PROD__) {
 // if (RELEASE === "2.1") {
 //   // код нашей фичи
 // }
-
-// import "./simple-components/javascript";
-// import "./react-components";

@@ -36,6 +36,7 @@ export default () => {
     modules.loadImages(),
     modules.loadSvg(),
     modules.loadFonts(),
-    modules.setupHtml()
+    modules.setupHtml(),
+    modules.filterMomentLocales()
   );
 };

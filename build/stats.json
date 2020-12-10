@@ -1,8 +1,8 @@
 {
-  "hash": "65102ecea79394f7e44e",
+  "hash": "f5afeb1338d39c9fa518",
   "version": "5.9.0",
-  "time": 997,
-  "builtAt": 1607361998460,
+  "time": 562,
+  "builtAt": 1607587367962,
   "publicPath": "/",
   "outputPath": "G:\\learn\\webpack-advanced\\build",
   "assetsByChunkName": {
@@ -11,6 +11,30 @@
     ]
   },
   "assets": [
+    {
+      "type": "asset",
+      "name": "js/bundle.js",
+      "size": 199839,
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 199839
+      },
+      "related": {},
+      "chunks": [
+        0
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
     {
       "type": "asset",
       "name": "favicon.ico",
@@ -27,30 +51,6 @@
       },
       "related": {},
       "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "js/bundle.js",
-      "size": 4398,
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "javascriptModule": false,
-        "size": 4398
-      },
-      "related": {},
-      "chunks": [
-        0
-      ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
@@ -80,10 +80,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2184,
+      "size": 198041,
       "sizes": {
-        "javascript": 1516,
-        "runtime": 668
+        "javascript": 197261,
+        "runtime": 780
       },
       "names": [
         "main"
@@ -96,7 +96,7 @@
         "js/bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "36192dae17f84a618411",
+      "hash": "33caf06b0b43ee6fc162",
       "childrenByOrder": {},
       "id": 0,
       "siblings": [],
@@ -105,17 +105,1161 @@
       "modules": [
         {
           "type": "module",
+          "moduleType": "javascript/dynamic",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "nameForCondition": null,
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "size": 376,
+          "sizes": {
+            "javascript": 376
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": true,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "issuerName": "./node_modules/moment/moment.js",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 2,
+          "issuerId": 1,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "cjs require context",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2092:16-50",
+              "moduleId": 1,
+              "resolvedModuleId": 1
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for ContextModule"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
           "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-          "name": "./source/index.js",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+          "name": "./node_modules/moment/locale/en-au.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 2625,
+          "sizes": {
+            "javascript": 2625
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 3,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+              "module": "./node_modules/moment/locale/en-au.js",
+              "moduleName": "./node_modules/moment/locale/en-au.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+              "resolvedModule": "./node_modules/moment/locale/en-au.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 3,
+              "resolvedModuleId": 3
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-au",
+              "loc": "./en-au",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-au.js",
+              "loc": "./en-au.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+          "name": "./node_modules/moment/locale/en-ca.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 2458,
+          "sizes": {
+            "javascript": 2458
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 4,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+              "module": "./node_modules/moment/locale/en-ca.js",
+              "moduleName": "./node_modules/moment/locale/en-ca.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+              "resolvedModule": "./node_modules/moment/locale/en-ca.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 4,
+              "resolvedModuleId": 4
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-ca",
+              "loc": "./en-ca",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-ca.js",
+              "loc": "./en-ca.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-75:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+          "name": "./node_modules/moment/locale/en-gb.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "size": 2631,
+          "sizes": {
+            "javascript": 2631
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 5,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+              "module": "./node_modules/moment/locale/en-gb.js",
+              "moduleName": "./node_modules/moment/locale/en-gb.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+              "resolvedModule": "./node_modules/moment/locale/en-gb.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 5,
+              "resolvedModuleId": 5
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-gb",
+              "loc": "./en-gb",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-gb.js",
+              "loc": "./en-gb.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+          "name": "./node_modules/moment/locale/en-ie.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "size": 2629,
+          "sizes": {
+            "javascript": 2629
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 6,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+              "module": "./node_modules/moment/locale/en-ie.js",
+              "moduleName": "./node_modules/moment/locale/en-ie.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+              "resolvedModule": "./node_modules/moment/locale/en-ie.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 6,
+              "resolvedModuleId": 6
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-ie",
+              "loc": "./en-ie",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-ie.js",
+              "loc": "./en-ie.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+          "name": "./node_modules/moment/locale/en-il.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "size": 2451,
+          "sizes": {
+            "javascript": 2451
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 7,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+              "module": "./node_modules/moment/locale/en-il.js",
+              "moduleName": "./node_modules/moment/locale/en-il.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+              "resolvedModule": "./node_modules/moment/locale/en-il.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 7,
+              "resolvedModuleId": 7
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-il",
+              "loc": "./en-il",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-il.js",
+              "loc": "./en-il.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-75:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+          "name": "./node_modules/moment/locale/en-in.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "size": 2625,
+          "sizes": {
+            "javascript": 2625
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 8,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+              "module": "./node_modules/moment/locale/en-in.js",
+              "moduleName": "./node_modules/moment/locale/en-in.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+              "resolvedModule": "./node_modules/moment/locale/en-in.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 8,
+              "resolvedModuleId": 8
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-in",
+              "loc": "./en-in",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-in.js",
+              "loc": "./en-in.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+          "name": "./node_modules/moment/locale/en-nz.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "size": 2634,
+          "sizes": {
+            "javascript": 2634
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 9,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+              "module": "./node_modules/moment/locale/en-nz.js",
+              "moduleName": "./node_modules/moment/locale/en-nz.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+              "resolvedModule": "./node_modules/moment/locale/en-nz.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 9,
+              "resolvedModuleId": 9
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-nz",
+              "loc": "./en-nz",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-nz.js",
+              "loc": "./en-nz.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+          "name": "./node_modules/moment/locale/en-sg.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "size": 2643,
+          "sizes": {
+            "javascript": 2643
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "issuerName": "./node_modules/moment/locale/ sync en",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "name": "./node_modules/moment/moment.js",
+              "id": 1
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "name": "./node_modules/moment/locale/ sync en",
+              "id": 2
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 10,
+          "issuerId": 2,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+              "module": "./node_modules/moment/locale/en-sg.js",
+              "moduleName": "./node_modules/moment/locale/en-sg.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+              "resolvedModule": "./node_modules/moment/locale/en-sg.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "10:2-6",
+              "moduleId": 10,
+              "resolvedModuleId": 10
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-sg",
+              "loc": "./en-sg",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "module": "./node_modules/moment/locale/ sync en",
+              "moduleName": "./node_modules/moment/locale/ sync en",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+              "resolvedModule": "./node_modules/moment/locale/ sync en",
+              "type": "context element",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./en-sg.js",
+              "loc": "./en-sg.js",
+              "moduleId": 2,
+              "resolvedModuleId": 2
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 10:2-6",
+            "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "size": 173902,
+          "sizes": {
+            "javascript": 173902
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "issuerName": "./source/index.js",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 1,
+          "issuerId": null,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+              "module": "./source/index.js + 2 modules",
+              "moduleName": "./source/index.js + 2 modules",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "resolvedModule": "./source/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "moment",
+              "loc": "2:0-28",
+              "moduleId": 0,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+              "module": "./source/index.js + 2 modules",
+              "moduleName": "./source/index.js + 2 modules",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "resolvedModule": "./source/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "moment",
+              "loc": "3:12-22",
+              "moduleId": 0,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+              "module": "./source/index.js + 2 modules",
+              "moduleName": "./source/index.js + 2 modules",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "resolvedModule": "./source/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "moment",
+              "loc": "4:0-13",
+              "moduleId": 0,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+              "module": "./node_modules/moment/locale/en-au.js",
+              "moduleName": "./node_modules/moment/locale/en-au.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+              "resolvedModule": "./node_modules/moment/locale/en-au.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 3,
+              "resolvedModuleId": 3
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+              "module": "./node_modules/moment/locale/en-ca.js",
+              "moduleName": "./node_modules/moment/locale/en-ca.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+              "resolvedModule": "./node_modules/moment/locale/en-ca.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 4,
+              "resolvedModuleId": 4
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+              "module": "./node_modules/moment/locale/en-gb.js",
+              "moduleName": "./node_modules/moment/locale/en-gb.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+              "resolvedModule": "./node_modules/moment/locale/en-gb.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 5,
+              "resolvedModuleId": 5
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+              "module": "./node_modules/moment/locale/en-ie.js",
+              "moduleName": "./node_modules/moment/locale/en-ie.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+              "resolvedModule": "./node_modules/moment/locale/en-ie.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 6,
+              "resolvedModuleId": 6
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+              "module": "./node_modules/moment/locale/en-il.js",
+              "moduleName": "./node_modules/moment/locale/en-il.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+              "resolvedModule": "./node_modules/moment/locale/en-il.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 7,
+              "resolvedModuleId": 7
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+              "module": "./node_modules/moment/locale/en-in.js",
+              "moduleName": "./node_modules/moment/locale/en-in.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+              "resolvedModule": "./node_modules/moment/locale/en-in.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 8,
+              "resolvedModuleId": 8
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+              "module": "./node_modules/moment/locale/en-nz.js",
+              "moduleName": "./node_modules/moment/locale/en-nz.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+              "resolvedModule": "./node_modules/moment/locale/en-nz.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 9,
+              "resolvedModuleId": 9
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+              "module": "./node_modules/moment/locale/en-sg.js",
+              "moduleName": "./node_modules/moment/locale/en-sg.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+              "resolvedModule": "./node_modules/moment/locale/en-sg.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../moment",
+              "loc": "7:50-70",
+              "moduleId": 10,
+              "resolvedModuleId": 10
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "8:67-81",
+              "moduleId": 1,
+              "resolvedModuleId": 1
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "11:2-6",
+              "moduleId": 1,
+              "resolvedModuleId": 1
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2086:12-18",
+              "moduleId": 1,
+              "resolvedModuleId": 1
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2087:12-26",
+              "moduleId": 1,
+              "resolvedModuleId": 1
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 11:2-6",
+            "CommonJS bailout: module.exports is used directly at 2087:12-26",
+            "CommonJS bailout: module.exports is used directly at 8:67-81",
+            "Statement (ExpressionStatement) with side effects in source code at 7:1-5670:5",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+          "name": "./source/index.js + 2 modules",
           "nameForCondition": "G:\\learn\\webpack-advanced\\source\\index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "size": 1368,
+          "index2": 12,
+          "postOrderIndex": 12,
+          "size": 2287,
           "sizes": {
-            "javascript": 1368
+            "javascript": 2287
           },
           "cacheable": true,
           "built": true,
@@ -124,14 +1268,10 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 0,
-          "issuerId": null,
           "chunks": [
             0
           ],
@@ -152,86 +1292,226 @@
               "resolvedModuleId": null
             }
           ],
-          "usedExports": null,
+          "usedExports": [],
           "providedExports": [],
-          "optimizationBailout": [],
-          "depth": 0
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/moment/moment.js: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 12,
+              "postOrderIndex": 12,
+              "size": 1441,
+              "sizes": {
+                "javascript": 1441
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-25"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\javascript.js",
+              "name": "./source/simple-components/javascript.js",
+              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\javascript.js",
+              "index": 11,
+              "preOrderIndex": 11,
+              "index2": 10,
+              "postOrderIndex": 10,
+              "size": 698,
+              "sizes": {
+                "javascript": 698
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "issuerName": "./source/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "name": "./source/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "module": "./source/index.js",
+                  "moduleName": "./source/index.js",
+                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "resolvedModule": "./source/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./simple-components/javascript",
+                  "loc": "5:0-40",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [
+                "a",
+                "b"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 25:0-42"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+              "name": "./source/simple-components/dom.js",
+              "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+              "index": 12,
+              "preOrderIndex": 12,
+              "index2": 11,
+              "postOrderIndex": 11,
+              "size": 148,
+              "sizes": {
+                "javascript": 148
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "issuerName": "./source/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "name": "./source/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "module": "./source/index.js",
+                  "moduleName": "./source/index.js",
+                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "resolvedModule": "./source/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./simple-components/dom",
+                  "loc": "1:0-48",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "module": "./source/index.js",
+                  "moduleName": "./source/index.js",
+                  "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+                  "resolvedModule": "./source/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./simple-components/dom",
+                  "loc": "8:14-23",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
         },
         {
           "type": "module",
-          "moduleType": "javascript/auto",
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-          "name": "./source/simple-components/dom.js",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-          "index": 1,
-          "preOrderIndex": 1,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "size": 148,
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 263,
           "sizes": {
-            "javascript": 148
+            "runtime": 263
           },
-          "cacheable": true,
-          "built": true,
+          "built": false,
           "codeGenerated": true,
           "cached": false,
           "optional": false,
           "orphan": false,
-          "dependent": true,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-          "issuerName": "./source/index.js",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "name": "./source/index.js",
-              "id": 0
-            }
-          ],
+          "dependent": false,
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 1,
-          "issuerId": 0,
+          "id": "",
           "chunks": [
             0
           ],
           "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "module": "./source/index.js",
-              "moduleName": "./source/index.js",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "resolvedModule": "./source/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./simple-components/dom",
-              "loc": "1:0-48",
-              "moduleId": 0,
-              "resolvedModuleId": 0
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "module": "./source/index.js",
-              "moduleName": "./source/index.js",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "resolvedModule": "./source/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./simple-components/dom",
-              "loc": "3:14-23",
-              "moduleId": 0,
-              "resolvedModuleId": 0
-            }
-          ],
+          "reasons": [],
           "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
+          "providedExports": [],
           "optimizationBailout": [],
-          "depth": 1
+          "depth": null
         },
         {
           "type": "module",
@@ -304,16 +1584,16 @@
         {
           "type": "module",
           "moduleType": "runtime",
-          "identifier": "webpack/runtime/make namespace object",
-          "name": "webpack/runtime/make namespace object",
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
           "index2": null,
           "postOrderIndex": null,
-          "size": 274,
+          "size": 123,
           "sizes": {
-            "runtime": 274
+            "runtime": 123
           },
           "built": false,
           "codeGenerated": true,
@@ -350,17 +1630,17 @@
   "modules": [
     {
       "type": "module",
-      "moduleType": "javascript/auto",
-      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-      "name": "./source/index.js",
+      "moduleType": "javascript/esm",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+      "name": "./source/index.js + 2 modules",
       "nameForCondition": "G:\\learn\\webpack-advanced\\source\\index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 1,
-      "postOrderIndex": 1,
-      "size": 1368,
+      "index2": 12,
+      "postOrderIndex": 12,
+      "size": 2287,
       "sizes": {
-        "javascript": 1368
+        "javascript": 2287
       },
       "cacheable": true,
       "built": true,
@@ -368,14 +1648,10 @@
       "cached": false,
       "optional": false,
       "orphan": false,
-      "issuer": null,
-      "issuerName": null,
-      "issuerPath": null,
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 0,
-      "issuerId": null,
       "chunks": [
         0
       ],
@@ -396,24 +1672,203 @@
           "resolvedModuleId": null
         }
       ],
-      "usedExports": null,
+      "usedExports": [],
       "providedExports": [],
-      "optimizationBailout": [],
-      "depth": 0
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/moment/moment.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 12,
+          "postOrderIndex": 12,
+          "size": 1441,
+          "sizes": {
+            "javascript": 1441
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 3:0-25"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\javascript.js",
+          "name": "./source/simple-components/javascript.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\javascript.js",
+          "index": 11,
+          "preOrderIndex": 11,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "size": 698,
+          "sizes": {
+            "javascript": 698
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "issuerName": "./source/index.js",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "module": "./source/index.js",
+              "moduleName": "./source/index.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "resolvedModule": "./source/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./simple-components/javascript",
+              "loc": "5:0-40",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "a",
+            "b"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 25:0-42"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+          "name": "./source/simple-components/dom.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+          "index": 12,
+          "preOrderIndex": 12,
+          "index2": 11,
+          "postOrderIndex": 11,
+          "size": 148,
+          "sizes": {
+            "javascript": 148
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "issuerName": "./source/index.js",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "module": "./source/index.js",
+              "moduleName": "./source/index.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "resolvedModule": "./source/index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./simple-components/dom",
+              "loc": "1:0-48",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "module": "./source/index.js",
+              "moduleName": "./source/index.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "resolvedModule": "./source/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./simple-components/dom",
+              "loc": "8:14-23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
     },
     {
       "type": "module",
       "moduleType": "javascript/auto",
-      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-      "name": "./source/simple-components/dom.js",
-      "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+      "name": "./node_modules/moment/moment.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
       "index": 1,
       "preOrderIndex": 1,
-      "index2": 0,
-      "postOrderIndex": 0,
-      "size": 148,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "size": 173902,
       "sizes": {
-        "javascript": 148
+        "javascript": 173902
       },
       "cacheable": true,
       "built": true,
@@ -427,17 +1882,276 @@
         {
           "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
           "name": "./source/index.js",
-          "id": 0
+          "id": null
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 1,
-      "issuerId": 0,
+      "issuerId": null,
       "chunks": [
         0
       ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+          "module": "./source/index.js + 2 modules",
+          "moduleName": "./source/index.js + 2 modules",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "resolvedModule": "./source/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "moment",
+          "loc": "2:0-28",
+          "moduleId": 0,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+          "module": "./source/index.js + 2 modules",
+          "moduleName": "./source/index.js + 2 modules",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "resolvedModule": "./source/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "moment",
+          "loc": "3:12-22",
+          "moduleId": 0,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|f462a82ff587555328a0f5107aa9be21",
+          "module": "./source/index.js + 2 modules",
+          "moduleName": "./source/index.js + 2 modules",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "resolvedModule": "./source/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "moment",
+          "loc": "4:0-13",
+          "moduleId": 0,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+          "module": "./node_modules/moment/locale/en-au.js",
+          "moduleName": "./node_modules/moment/locale/en-au.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+          "resolvedModule": "./node_modules/moment/locale/en-au.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 3,
+          "resolvedModuleId": 3
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+          "module": "./node_modules/moment/locale/en-ca.js",
+          "moduleName": "./node_modules/moment/locale/en-ca.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+          "resolvedModule": "./node_modules/moment/locale/en-ca.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 4,
+          "resolvedModuleId": 4
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+          "module": "./node_modules/moment/locale/en-gb.js",
+          "moduleName": "./node_modules/moment/locale/en-gb.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+          "resolvedModule": "./node_modules/moment/locale/en-gb.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 5,
+          "resolvedModuleId": 5
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+          "module": "./node_modules/moment/locale/en-ie.js",
+          "moduleName": "./node_modules/moment/locale/en-ie.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+          "resolvedModule": "./node_modules/moment/locale/en-ie.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 6,
+          "resolvedModuleId": 6
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+          "module": "./node_modules/moment/locale/en-il.js",
+          "moduleName": "./node_modules/moment/locale/en-il.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+          "resolvedModule": "./node_modules/moment/locale/en-il.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 7,
+          "resolvedModuleId": 7
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+          "module": "./node_modules/moment/locale/en-in.js",
+          "moduleName": "./node_modules/moment/locale/en-in.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+          "resolvedModule": "./node_modules/moment/locale/en-in.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 8,
+          "resolvedModuleId": 8
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+          "module": "./node_modules/moment/locale/en-nz.js",
+          "moduleName": "./node_modules/moment/locale/en-nz.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+          "resolvedModule": "./node_modules/moment/locale/en-nz.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 9,
+          "resolvedModuleId": 9
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+          "module": "./node_modules/moment/locale/en-sg.js",
+          "moduleName": "./node_modules/moment/locale/en-sg.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+          "resolvedModule": "./node_modules/moment/locale/en-sg.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../moment",
+          "loc": "7:50-70",
+          "moduleId": 10,
+          "resolvedModuleId": 10
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "8:67-81",
+          "moduleId": 1,
+          "resolvedModuleId": 1
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "11:2-6",
+          "moduleId": 1,
+          "resolvedModuleId": 1
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2086:12-18",
+          "moduleId": 1,
+          "resolvedModuleId": 1
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2087:12-26",
+          "moduleId": 1,
+          "resolvedModuleId": 1
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 11:2-6",
+        "CommonJS bailout: module.exports is used directly at 2087:12-26",
+        "CommonJS bailout: module.exports is used directly at 8:67-81",
+        "Statement (ExpressionStatement) with side effects in source code at 7:1-5670:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\javascript.js",
+      "name": "./source/simple-components/javascript.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\javascript.js",
+      "index": 11,
+      "preOrderIndex": 11,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "size": 698,
+      "sizes": {
+        "javascript": 698
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+      "issuerName": "./source/index.js",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
       "assets": [],
       "reasons": [
         {
@@ -449,10 +2163,72 @@
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
+          "userRequest": "./simple-components/javascript",
+          "loc": "5:0-40",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "a",
+        "b"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 25:0-42"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+      "name": "./source/simple-components/dom.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+      "index": 12,
+      "preOrderIndex": 12,
+      "index2": 11,
+      "postOrderIndex": 11,
+      "size": 148,
+      "sizes": {
+        "javascript": 148
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+      "issuerName": "./source/index.js",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "module": "./source/index.js",
+          "moduleName": "./source/index.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "resolvedModule": "./source/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
           "userRequest": "./simple-components/dom",
           "loc": "1:0-48",
-          "moduleId": 0,
-          "resolvedModuleId": 0
+          "moduleId": null,
+          "resolvedModuleId": null
         },
         {
           "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
@@ -464,17 +2240,925 @@
           "active": true,
           "explanation": "",
           "userRequest": "./simple-components/dom",
-          "loc": "3:14-23",
-          "moduleId": 0,
-          "resolvedModuleId": 0
+          "loc": "8:14-23",
+          "moduleId": null,
+          "resolvedModuleId": null
         }
       ],
-      "usedExports": null,
+      "usedExports": [
+        "default"
+      ],
       "providedExports": [
         "default"
       ],
       "optimizationBailout": [],
       "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/dynamic",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "name": "./node_modules/moment/locale/ sync en",
+      "nameForCondition": null,
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "size": 376,
+      "sizes": {
+        "javascript": 376
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": true,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+      "issuerName": "./node_modules/moment/moment.js",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 2,
+      "issuerId": 1,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "cjs require context",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2092:16-50",
+          "moduleId": 1,
+          "resolvedModuleId": 1
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for ContextModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+      "name": "./node_modules/moment/locale/en-au.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 2625,
+      "sizes": {
+        "javascript": 2625
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 3,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+          "module": "./node_modules/moment/locale/en-au.js",
+          "moduleName": "./node_modules/moment/locale/en-au.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-au.js",
+          "resolvedModule": "./node_modules/moment/locale/en-au.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 3,
+          "resolvedModuleId": 3
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-au",
+          "loc": "./en-au",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-au.js",
+          "loc": "./en-au.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+      "name": "./node_modules/moment/locale/en-ca.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 2458,
+      "sizes": {
+        "javascript": 2458
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 4,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+          "module": "./node_modules/moment/locale/en-ca.js",
+          "moduleName": "./node_modules/moment/locale/en-ca.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ca.js",
+          "resolvedModule": "./node_modules/moment/locale/en-ca.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 4,
+          "resolvedModuleId": 4
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-ca",
+          "loc": "./en-ca",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-ca.js",
+          "loc": "./en-ca.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-75:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+      "name": "./node_modules/moment/locale/en-gb.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "size": 2631,
+      "sizes": {
+        "javascript": 2631
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 5,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+          "module": "./node_modules/moment/locale/en-gb.js",
+          "moduleName": "./node_modules/moment/locale/en-gb.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-gb.js",
+          "resolvedModule": "./node_modules/moment/locale/en-gb.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 5,
+          "resolvedModuleId": 5
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-gb",
+          "loc": "./en-gb",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-gb.js",
+          "loc": "./en-gb.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+      "name": "./node_modules/moment/locale/en-ie.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "size": 2629,
+      "sizes": {
+        "javascript": 2629
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 6,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+          "module": "./node_modules/moment/locale/en-ie.js",
+          "moduleName": "./node_modules/moment/locale/en-ie.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-ie.js",
+          "resolvedModule": "./node_modules/moment/locale/en-ie.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 6,
+          "resolvedModuleId": 6
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-ie",
+          "loc": "./en-ie",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-ie.js",
+          "loc": "./en-ie.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+      "name": "./node_modules/moment/locale/en-il.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "size": 2451,
+      "sizes": {
+        "javascript": 2451
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 7,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+          "module": "./node_modules/moment/locale/en-il.js",
+          "moduleName": "./node_modules/moment/locale/en-il.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-il.js",
+          "resolvedModule": "./node_modules/moment/locale/en-il.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 7,
+          "resolvedModuleId": 7
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-il",
+          "loc": "./en-il",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-il.js",
+          "loc": "./en-il.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-75:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+      "name": "./node_modules/moment/locale/en-in.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "size": 2625,
+      "sizes": {
+        "javascript": 2625
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 8,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+          "module": "./node_modules/moment/locale/en-in.js",
+          "moduleName": "./node_modules/moment/locale/en-in.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-in.js",
+          "resolvedModule": "./node_modules/moment/locale/en-in.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 8,
+          "resolvedModuleId": 8
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-in",
+          "loc": "./en-in",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-in.js",
+          "loc": "./en-in.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+      "name": "./node_modules/moment/locale/en-nz.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "size": 2634,
+      "sizes": {
+        "javascript": 2634
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 9,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+          "module": "./node_modules/moment/locale/en-nz.js",
+          "moduleName": "./node_modules/moment/locale/en-nz.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-nz.js",
+          "resolvedModule": "./node_modules/moment/locale/en-nz.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 9,
+          "resolvedModuleId": 9
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-nz",
+          "loc": "./en-nz",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-nz.js",
+          "loc": "./en-nz.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+      "name": "./node_modules/moment/locale/en-sg.js",
+      "nameForCondition": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "size": 2643,
+      "sizes": {
+        "javascript": 2643
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+      "issuerName": "./node_modules/moment/locale/ sync en",
+      "issuerPath": [
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+          "name": "./source/index.js",
+          "id": null
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "id": 1
+        },
+        {
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "name": "./node_modules/moment/locale/ sync en",
+          "id": 2
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 10,
+      "issuerId": 2,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+          "module": "./node_modules/moment/locale/en-sg.js",
+          "moduleName": "./node_modules/moment/locale/en-sg.js",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale\\en-sg.js",
+          "resolvedModule": "./node_modules/moment/locale/en-sg.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "10:2-6",
+          "moduleId": 10,
+          "resolvedModuleId": 10
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-sg",
+          "loc": "./en-sg",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        },
+        {
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "module": "./node_modules/moment/locale/ sync en",
+          "moduleName": "./node_modules/moment/locale/ sync en",
+          "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\moment\\locale|sync|/en/",
+          "resolvedModule": "./node_modules/moment/locale/ sync en",
+          "type": "context element",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./en-sg.js",
+          "loc": "./en-sg.js",
+          "moduleId": 2,
+          "resolvedModuleId": 2
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 10:2-6",
+        "Statement (ExpressionStatement) with side effects in source code at 5:1-79:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 263,
+      "sizes": {
+        "runtime": 263
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
     },
     {
       "type": "module",
@@ -545,16 +3229,16 @@
     {
       "type": "module",
       "moduleType": "runtime",
-      "identifier": "webpack/runtime/make namespace object",
-      "name": "webpack/runtime/make namespace object",
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
       "nameForCondition": null,
       "index": null,
       "preOrderIndex": null,
       "index2": null,
       "postOrderIndex": null,
-      "size": 274,
+      "size": 123,
       "sizes": {
-        "runtime": 274
+        "runtime": 123
       },
       "built": false,
       "codeGenerated": true,
@@ -585,11 +3269,11 @@
       "assets": [
         {
           "name": "js/bundle.js",
-          "size": 4398
+          "size": 199839
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4398,
+      "assetsSize": 199839,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -607,11 +3291,11 @@
       "assets": [
         {
           "name": "js/bundle.js",
-          "size": 4398
+          "size": 199839
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 4398,
+      "assetsSize": 199839,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -627,10 +3311,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "a31b4b501149bbfb357d",
+      "hash": "6bc842e4b757af001e8e",
       "version": "5.9.0",
-      "time": 101,
-      "builtAt": 1607361997672,
+      "time": 84,
+      "builtAt": 1607587367521,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {
@@ -684,7 +3368,7 @@
             "__child-HtmlWebpackPlugin_0"
           ],
           "auxiliaryFiles": [],
-          "hash": "b9c74db8a4ee93740ff8",
+          "hash": "f86ac3252c18519fce76",
           "childrenByOrder": {},
           "id": 0,
           "siblings": [],
@@ -770,7 +3454,9 @@
               "usedExports": null,
               "providedExports": null,
               "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 1:96-110"
+                "CommonJS bailout: module.exports is used directly at 1:96-110",
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-96",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0
             }
@@ -865,7 +3551,9 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 1:96-110"
+            "CommonJS bailout: module.exports is used directly at 1:96-110",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-96",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0
         }
