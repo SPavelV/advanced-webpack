@@ -3,6 +3,7 @@ import WebpackBar from "webpackbar";
 import FriendlyErrorsWebpackPlugin from "friendly-errors-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
+import { DefinePlugin } from "webpack";
 
 // Constants
 import { PROJECT_ROOT, BUILD_DIRECTORY } from "../constants";
@@ -36,3 +37,20 @@ export const connectBundleAnylizer = () => ({
     }),
   ],
 });
+
+export const defineEnvVariables = () => {
+  const { NODE_ENV } = process.env;
+  return {
+    plugins: [
+      new DefinePlugin({
+        __ENV__: JSON.stringify(NODE_ENV),
+        __DEV__: NODE_ENV === "development",
+        __STAGE__: NODE_ENV === "development",
+        __PROD__: NODE_ENV === "production",
+
+        // HELLO_SIMPLE: "hello",
+        // HELLO_STRINGIFIED: JSON.stringify("hello"),
+      }),
+    ],
+  };
+};

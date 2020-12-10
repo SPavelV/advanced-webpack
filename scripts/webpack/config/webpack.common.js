@@ -1,5 +1,5 @@
 // Core
-import { DefinePlugin } from "webpack";
+
 import merge from "webpack-merge";
 
 // Constants
@@ -9,28 +9,18 @@ const { SOURCE_DIRECTORY, BUILD_DIRECTORY } = require("../constants");
 import * as modules from "../modules";
 
 export default () => {
-  const { NODE_ENV } = process.env;
   return merge(
     {
       mode: "none",
       entry: [SOURCE_DIRECTORY],
       output: {
         path: BUILD_DIRECTORY,
-        filename: "js/bundle.js",
+        filename: "js/[name].[contenthash:5].[id].js",
+        chunkFilename: "js/[name].[chunkhash:5].[id].js",
         publicPath: "/",
       },
-      plugins: [
-        new DefinePlugin({
-          __ENV__: JSON.stringify(NODE_ENV),
-          __DEV__: NODE_ENV === "development",
-          __STAGE__: NODE_ENV === "development",
-          __PROD__: NODE_ENV === "production",
-
-          // HELLO_SIMPLE: "hello",
-          // HELLO_STRINGIFIED: JSON.stringify("hello"),
-        }),
-      ],
     },
+    modules.defineEnvVariables(),
     modules.loadJavaScript(),
     modules.loadSass(),
     modules.loadImages(),

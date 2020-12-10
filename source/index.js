@@ -8,8 +8,8 @@ console.log(_.update);
 // moment.locale("en");
 
 // import "./simple-components/javascript";
-// import "./theme/main.css";
-// import "./react-components";
+import "./theme/main.css";
+import "./react-components";
 
 // let element = component();
 // document.body.appendChild(element);
