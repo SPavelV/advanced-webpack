@@ -23,12 +23,12 @@ export const optimizeBuild = () => ({
     minimizer: [new TerserPlugin()],
 
     // production: останавливает эмит сборки при возникновении ошибки во время компиляции.
-    noEmitOnErrors: true,
+    emitOnErrors: true,
 
     // ✔ Не добавляет в сборку пустые чанки - это уменьшает нагрузку на систему, что ускаряет работу.
     removeEmptyChunks: true,
-    // // ✔ Объеденяет эквивалентные чанки. ??????
-    // mergeDublicateChunks: true,
+    // // ✔ Объеденяет эквивалентные чанки.
+    mergeDuplicateChunks: true,
     // ✔ Удаляет модуль из чанка, если этот модуль присутствует в родительском чанке()
     removeAvailableModules: true,
 
@@ -51,19 +51,20 @@ export const optimizeBuild = () => ({
 
     // //development: вместо числовых ID дает модулям понятные имена.
     // // TODO webpack 5 add `moduleIds: "named" default for development
-    // // TODO webpack 5 add `moduleIds: "siez" default for production
+    // // TODO webpack 5 add `moduleIds: "size" default for production
     // // TODO webpack 5 remove optimiztion.namedModules.
     // namedModules: false,
+
     // // Определяет механизм генерирования Id для модуля.
     // moduleIds: false,
 
-    // //development: вместо числовых ID дает чанкам понятные имена.
-    // // TODO webpack 5 add `chunkIds: "named" default for development
-    // // TODO webpack 5 add `chunkIds: "siez" default for production
-    // // TODO webpack 5 remove optimiztion.namedChunks
+    //development: вместо числовых ID дает чанкам понятные имена.
+    // TODO webpack 5 add `chunkIds: "named" default for development
+    // TODO webpack 5 add `chunkIds: "siez" default for production
+    // TODO webpack 5 remove optimiztion.namedChunks
     // namedChunks: false,
     // // Определяет механизм генерирования Id для чанка.
-    // // chunkIds: false,
+    // chunkIds: false,
   },
 });
 
