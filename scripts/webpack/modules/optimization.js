@@ -65,6 +65,9 @@ export const optimizeBuild = () => ({
     // namedChunks: false,
     // // Определяет механизм генерирования Id для чанка.
     // chunkIds: false,
+
+    // initial chunk(vendors - react, react-dom)
+    // async chunk (on demond)
   },
 });
 

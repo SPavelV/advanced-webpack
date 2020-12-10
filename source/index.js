@@ -1,18 +1,18 @@
 // import { update } from "lodash-es";
-import * as _ from "lodash-es";
-console.log(_.update);
+// import * as _ from "lodash-es";
+// console.log(_.update);
 
-// import component from "./simple-components/dom";
+import component from "./simple-components/dom";
+// import "./simple-components/javascript";
+// import "./react-components";
+import "./theme/main.css";
+
 // import moment from "moment";
 // const now = moment.now();
 // moment.locale("en");
 
-// import "./simple-components/javascript";
-import "./theme/main.css";
-import "./react-components";
-
-// let element = component();
-// document.body.appendChild(element);
+let element = component();
+document.body.appendChild(element);
 
 // TODO: hot reloading на React
 // 1. react-hot-loader: babel-плагин
