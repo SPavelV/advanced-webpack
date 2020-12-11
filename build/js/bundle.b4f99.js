@@ -59,7 +59,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/bundle." + "ea63b" + ".js";
+/******/ 			return "js/bundle." + "f7f21" + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -68,7 +68,7 @@
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + (chunkId === 0 ? "main" : chunkId) + "." + {"0":"undef","1":"31d6c"}[chunkId] + "." + chunkId + ".css";
+/******/ 			return "css/" + {"0":"lazyLoadedText","1":"main"}[chunkId] + "." + {"0":"31d6c","1":"undef"}[chunkId] + "." + chunkId + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -147,7 +147,7 @@
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// Promise = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			0: 0
+/******/ 			1: 0
 /******/ 		};
 /******/ 		
 /******/ 		
@@ -240,7 +240,7 @@
   const element = document.createElement("div");
   element.addEventListener("click", async () => {
     element.innerHTML = "Загрузка...";
-    const result = await __webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(__webpack_require__, 1));
+    const result = await __webpack_require__.e(/* import() | lazyLoadedText */ 0).then(__webpack_require__.bind(__webpack_require__, 1));
     await new Promise(resolve => setTimeout(() => {
       resolve;
     }, 2000));

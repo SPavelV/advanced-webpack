@@ -1,14 +1,17 @@
 {
-  "hash": "f4e8104bd1455494abfe",
+  "hash": "b4f99522cb2439d6c14f",
   "version": "5.10.0",
-  "time": 946,
-  "builtAt": 1607627573098,
+  "time": 854,
+  "builtAt": 1607665933573,
   "publicPath": "/",
   "outputPath": "G:\\learn\\webpack-advanced\\build",
   "assetsByChunkName": {
     "main": [
-      "css/main.0151d.0.css",
-      "js/bundle.f4e81.js"
+      "css/main.0151d.1.css",
+      "js/bundle.b4f99.js"
+    ],
+    "lazyLoadedText": [
+      "js/bundle.f7f21.js"
     ]
   },
   "assets": [
@@ -33,7 +36,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        0
+        1
       ],
       "isOverSizeLimit": false
     },
@@ -58,7 +61,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        0
+        1
       ],
       "isOverSizeLimit": false
     },
@@ -83,7 +86,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        0
+        1
       ],
       "isOverSizeLimit": false
     },
@@ -108,7 +111,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        0
+        1
       ],
       "isOverSizeLimit": false
     },
@@ -133,7 +136,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        0
+        1
       ],
       "isOverSizeLimit": false
     },
@@ -158,7 +161,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        0
+        1
       ],
       "isOverSizeLimit": false
     },
@@ -183,16 +186,16 @@
     },
     {
       "type": "asset",
-      "name": "js/bundle.f4e81.js",
-      "size": 12168,
+      "name": "js/bundle.b4f99.js",
+      "size": 12193,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "fullhash": "f4e81",
+        "fullhash": "b4f99",
         "javascriptModule": false,
-        "size": 12168
+        "size": 12193
       },
       "chunkNames": [
         "main"
@@ -202,14 +205,14 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        0
+        1
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "css/main.0151d.0.css",
+      "name": "css/main.0151d.1.css",
       "size": 1015,
       "emitted": true,
       "comparedForEmit": false,
@@ -227,31 +230,33 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        0
+        1
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "js/bundle.ea63b.js",
+      "name": "js/bundle.f7f21.js",
       "size": 560,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "chunkhash": "ea63b",
+        "chunkhash": "f7f21",
         "javascriptModule": false,
         "size": 560
       },
-      "chunkNames": [],
+      "chunkNames": [
+        "lazyLoadedText"
+      ],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        1
+        0
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -279,14 +284,136 @@
   "chunks": [
     {
       "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 72,
+      "sizes": {
+        "javascript": 72
+      },
+      "names": [
+        "lazyLoadedText"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "js/bundle.f7f21.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "f7f2159e094302ec2c24",
+      "childrenByOrder": {},
+      "id": 0,
+      "siblings": [],
+      "parents": [
+        1
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 72,
+          "sizes": {
+            "javascript": 72
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\lazyLoadedText.js",
+          "name": "./source/simple-components/lazyLoadedText.js",
+          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\lazyLoadedText.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+          "issuerName": "./source/simple-components/dom.js",
+          "issuerPath": [
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
+              "name": "./source/index.js",
+              "id": null
+            },
+            {
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+              "name": "./source/simple-components/dom.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 1,
+          "issuerId": null,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|45c4454b394f81bb061cf31752ea97d2",
+              "module": "./source/index.js + 1 modules",
+              "moduleName": "./source/index.js + 1 modules",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+              "resolvedModule": "./source/simple-components/dom.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazyLoadedText",
+              "loc": "5:25-7:23",
+              "moduleId": 0,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+              "module": "./source/simple-components/dom.js",
+              "moduleName": "./source/simple-components/dom.js",
+              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+              "resolvedModule": "./source/simple-components/dom.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./lazyLoadedText",
+              "loc": "5:25-7:23",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
+          "moduleName": "./source/simple-components/dom.js",
+          "loc": "5:25-7:23",
+          "request": "./lazyLoadedText",
+          "moduleId": null
+        }
+      ]
+    },
+    {
+      "rendered": true,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 9000,
+      "size": 9058,
       "sizes": {
-        "javascript": 2023,
+        "javascript": 2073,
         "css/mini-extract": 1013,
-        "runtime": 5964
+        "runtime": 5972
       },
       "names": [
         "main"
@@ -296,8 +423,8 @@
         "main"
       ],
       "files": [
-        "css/main.0151d.0.css",
-        "js/bundle.f4e81.js"
+        "css/main.0151d.1.css",
+        "js/bundle.b4f99.js"
       ],
       "auxiliaryFiles": [
         "fonts/Roboto-Bold.3f2cbde6b72e8d05669fb048b5ebc20f.woff",
@@ -307,21 +434,21 @@
         "fonts/Roboto-Regular.31012f9b3e3da44f87e842e419bc267a.woff",
         "fonts/Roboto-Regular.a25806274237d06e00a6888155519b98.woff2"
       ],
-      "hash": "3c8a8ee72c3ef187a1bf",
+      "hash": "fcb933955fe132213492",
       "childrenByOrder": {},
-      "id": 0,
+      "id": 1,
       "siblings": [],
       "parents": [],
       "children": [
-        1
+        0
       ],
       "modules": [
         {
           "type": "module",
           "moduleType": "javascript/esm",
-          "size": 2023,
+          "size": 2073,
           "sizes": {
-            "javascript": 2023
+            "javascript": 2073
           },
           "built": true,
           "codeGenerated": true,
@@ -342,7 +469,7 @@
           "warnings": 0,
           "id": 0,
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [
@@ -408,9 +535,9 @@
             {
               "type": "module",
               "moduleType": "javascript/auto",
-              "size": 426,
+              "size": 476,
               "sizes": {
-                "javascript": 426
+                "javascript": 476
               },
               "built": true,
               "codeGenerated": false,
@@ -523,7 +650,7 @@
           "id": null,
           "issuerId": null,
           "chunks": [
-            0
+            1
           ],
           "assets": [
             "fonts/Roboto-Regular.a25806274237d06e00a6888155519b98.woff2",
@@ -595,7 +722,7 @@
           "id": null,
           "issuerId": null,
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [
@@ -645,7 +772,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -679,7 +806,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -713,7 +840,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -747,7 +874,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -759,9 +886,9 @@
         {
           "type": "module",
           "moduleType": "runtime",
-          "size": 263,
+          "size": 271,
           "sizes": {
-            "runtime": 263
+            "runtime": 271
           },
           "built": false,
           "codeGenerated": true,
@@ -781,7 +908,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -815,7 +942,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -849,7 +976,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -883,7 +1010,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -917,7 +1044,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -951,7 +1078,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            0
+            1
           ],
           "assets": [],
           "reasons": [],
@@ -970,135 +1097,15 @@
           "request": "G:\\learn\\webpack-advanced\\source"
         }
       ]
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 72,
-      "sizes": {
-        "javascript": 72
-      },
-      "names": [],
-      "idHints": [],
-      "runtime": [
-        "main"
-      ],
-      "files": [
-        "js/bundle.ea63b.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "ea63be8972de928437dd",
-      "childrenByOrder": {},
-      "id": 1,
-      "siblings": [],
-      "parents": [
-        0
-      ],
-      "children": [],
-      "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "size": 72,
-          "sizes": {
-            "javascript": 72
-          },
-          "built": true,
-          "codeGenerated": true,
-          "cached": false,
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\lazyLoadedText.js",
-          "name": "./source/simple-components/lazyLoadedText.js",
-          "nameForCondition": "G:\\learn\\webpack-advanced\\source\\simple-components\\lazyLoadedText.js",
-          "index": 4,
-          "preOrderIndex": 4,
-          "index2": 4,
-          "postOrderIndex": 4,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-          "issuerName": "./source/simple-components/dom.js",
-          "issuerPath": [
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
-              "name": "./source/index.js",
-              "id": null
-            },
-            {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-              "name": "./source/simple-components/dom.js",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 1,
-          "issuerId": null,
-          "chunks": [
-            1
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js|45c4454b394f81bb061cf31752ea97d2",
-              "module": "./source/index.js + 1 modules",
-              "moduleName": "./source/index.js + 1 modules",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-              "resolvedModule": "./source/simple-components/dom.js",
-              "type": "import()",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./lazyLoadedText",
-              "loc": "5:25-51",
-              "moduleId": 0,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-              "module": "./source/simple-components/dom.js",
-              "moduleName": "./source/simple-components/dom.js",
-              "resolvedModuleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-              "resolvedModule": "./source/simple-components/dom.js",
-              "type": "import()",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./lazyLoadedText",
-              "loc": "5:25-51",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": true,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        }
-      ],
-      "origins": [
-        {
-          "module": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-          "moduleIdentifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\simple-components\\dom.js",
-          "moduleName": "./source/simple-components/dom.js",
-          "loc": "5:25-51",
-          "request": "./lazyLoadedText",
-          "moduleId": null
-        }
-      ]
     }
   ],
   "modules": [
     {
       "type": "module",
       "moduleType": "javascript/esm",
-      "size": 2023,
+      "size": 2073,
       "sizes": {
-        "javascript": 2023
+        "javascript": 2073
       },
       "built": true,
       "codeGenerated": true,
@@ -1118,7 +1125,7 @@
       "warnings": 0,
       "id": 0,
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [
@@ -1183,9 +1190,9 @@
         {
           "type": "module",
           "moduleType": "javascript/auto",
-          "size": 426,
+          "size": 476,
           "sizes": {
-            "javascript": 426
+            "javascript": 476
           },
           "built": true,
           "codeGenerated": false,
@@ -1260,9 +1267,9 @@
     {
       "type": "module",
       "moduleType": "javascript/auto",
-      "size": 426,
+      "size": 476,
       "sizes": {
-        "javascript": 426
+        "javascript": 476
       },
       "built": true,
       "codeGenerated": false,
@@ -1430,7 +1437,7 @@
       "id": null,
       "issuerId": null,
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [
@@ -1494,7 +1501,7 @@
       "id": null,
       "issuerId": null,
       "chunks": [
-        0
+        1
       ],
       "assets": [
         "fonts/Roboto-Regular.a25806274237d06e00a6888155519b98.woff2",
@@ -1566,7 +1573,7 @@
       "id": 1,
       "issuerId": null,
       "chunks": [
-        1
+        0
       ],
       "assets": [],
       "reasons": [
@@ -1580,7 +1587,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./lazyLoadedText",
-          "loc": "5:25-51",
+          "loc": "5:25-7:23",
           "moduleId": 0,
           "resolvedModuleId": null
         },
@@ -1594,7 +1601,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./lazyLoadedText",
-          "loc": "5:25-51",
+          "loc": "5:25-7:23",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -1630,7 +1637,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1663,7 +1670,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1696,7 +1703,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1729,7 +1736,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1741,9 +1748,9 @@
     {
       "type": "module",
       "moduleType": "runtime",
-      "size": 263,
+      "size": 271,
       "sizes": {
-        "runtime": 263
+        "runtime": 271
       },
       "built": false,
       "codeGenerated": true,
@@ -1762,7 +1769,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1795,7 +1802,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1828,7 +1835,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1861,7 +1868,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1894,7 +1901,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1927,7 +1934,7 @@
       "warnings": 0,
       "id": "",
       "chunks": [
-        0
+        1
       ],
       "assets": [],
       "reasons": [],
@@ -1941,20 +1948,20 @@
     "main": {
       "name": "main",
       "chunks": [
-        0
+        1
       ],
       "assets": [
         {
-          "name": "css/main.0151d.0.css",
+          "name": "css/main.0151d.1.css",
           "size": 1015
         },
         {
-          "name": "js/bundle.f4e81.js",
-          "size": 12168
+          "name": "js/bundle.b4f99.js",
+          "size": 12193
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 13183,
+      "assetsSize": 13208,
       "auxiliaryAssets": [
         {
           "name": "fonts/Roboto-Bold.3f2cbde6b72e8d05669fb048b5ebc20f.woff",
@@ -1992,20 +1999,20 @@
     "main": {
       "name": "main",
       "chunks": [
-        0
+        1
       ],
       "assets": [
         {
-          "name": "css/main.0151d.0.css",
+          "name": "css/main.0151d.1.css",
           "size": 1015
         },
         {
-          "name": "js/bundle.f4e81.js",
-          "size": 12168
+          "name": "js/bundle.b4f99.js",
+          "size": 12193
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 13183,
+      "assetsSize": 13208,
       "auxiliaryAssets": [
         {
           "name": "fonts/Roboto-Bold.3f2cbde6b72e8d05669fb048b5ebc20f.woff",
@@ -2037,6 +2044,26 @@
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
+    },
+    "lazyLoadedText": {
+      "name": "lazyLoadedText",
+      "chunks": [
+        0
+      ],
+      "assets": [
+        {
+          "name": "js/bundle.f7f21.js",
+          "size": 560
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 560,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
     }
   },
   "errors": [],
@@ -2048,8 +2075,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "6bc842e4b757af001e8e",
       "version": "5.10.0",
-      "time": 86,
-      "builtAt": 1607627572271,
+      "time": 85,
+      "builtAt": 1607665932837,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {
@@ -2345,8 +2372,8 @@
       "name": "mini-css-extract-plugin G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
       "hash": "3436055ed48985180aa2",
       "version": "5.10.0",
-      "time": 414,
-      "builtAt": 1607627573009,
+      "time": 383,
+      "builtAt": 1607665933484,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {},
