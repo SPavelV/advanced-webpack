@@ -1,8 +1,8 @@
 {
-  "hash": "a92a93016ab0e474e3fe",
+  "hash": "7f4465702fd8300bd05b",
   "version": "5.10.0",
-  "time": 1938,
-  "builtAt": 1607709524811,
+  "time": 2048,
+  "builtAt": 1607710314566,
   "publicPath": "/",
   "outputPath": "G:\\learn\\webpack-advanced\\build",
   "assetsByChunkName": {
@@ -2311,8 +2311,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\react\\cjs\\react.production.min.js",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "G:\\learn\\webpack-advanced\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "issuerPath": [
             {
               "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
@@ -2325,21 +2325,21 @@
               "id": null
             },
             {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react\\index.js",
-              "name": "./node_modules/react/index.js",
-              "id": 1
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 4
             },
             {
-              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react\\cjs\\react.production.min.js",
-              "name": "./node_modules/react/cjs/react.production.min.js",
-              "id": 2
+              "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 5
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 3,
-          "issuerId": 2,
+          "issuerId": 5,
           "chunks": [
             2
           ],
@@ -6946,8 +6946,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\react\\cjs\\react.production.min.js",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "G:\\learn\\webpack-advanced\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "issuerPath": [
         {
           "identifier": "G:\\learn\\webpack-advanced\\node_modules\\babel-loader\\lib\\index.js!G:\\learn\\webpack-advanced\\source\\index.js",
@@ -6960,21 +6960,21 @@
           "id": null
         },
         {
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react\\index.js",
-          "name": "./node_modules/react/index.js",
-          "id": 1
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 4
         },
         {
-          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react\\cjs\\react.production.min.js",
-          "name": "./node_modules/react/cjs/react.production.min.js",
-          "id": 2
+          "identifier": "G:\\learn\\webpack-advanced\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 5
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 3,
-      "issuerId": 2,
+      "issuerId": 5,
       "chunks": [
         2
       ],
@@ -8305,16 +8305,24 @@
       ],
       "details": "Error: Do not use a function as plugin (i.e. '{ plugins: [imageminMozjpeg()] }'), it is not allowed invalidate a cache. It will be removed in next major release. You can rewrite this to '{ plugins: ['mozjpeg'] }' or '{ plugins: [['mozjpeg', options]] }', please see the documentation for more information.\n    at G:\\learn\\webpack-advanced\\node_modules\\imagemin-webpack\\src\\utils\\normalize-config.js:84:11\n    at Array.map (<anonymous>)\n    at normalizeConfig (G:\\learn\\webpack-advanced\\node_modules\\imagemin-webpack\\src\\utils\\normalize-config.js:27:6)\n    at getConfigForFile (G:\\learn\\webpack-advanced\\node_modules\\imagemin-webpack\\src\\utils\\get-config-for-file.js:7:10)\n    at G:\\learn\\webpack-advanced\\node_modules\\imagemin-webpack\\src\\minify.js:89:29",
       "stack": "ModuleWarning: Module Warning (from ./node_modules/imagemin-webpack/src/imagemin-loader.js):\nDo not use a function as plugin (i.e. '{ plugins: [imageminMozjpeg()] }'), it is not allowed invalidate a cache. It will be removed in next major release. You can rewrite this to '{ plugins: ['mozjpeg'] }' or '{ plugins: [['mozjpeg', options]] }', please see the documentation for more information.\n    at Object.emitWarning (G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\NormalModule.js:423:6)\n    at G:\\learn\\webpack-advanced\\node_modules\\imagemin-webpack\\src\\imagemin-loader.js:38:16\n    at Array.forEach (<anonymous>)\n    at G:\\learn\\webpack-advanced\\node_modules\\imagemin-webpack\\src\\imagemin-loader.js:37:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+    },
+    {
+      "message": "SplitChunksPlugin\nCache group defaultVendors\nConfigured minSize (29.3 KiB) is bigger than maxSize (0 bytes).\nThis seem to be a invalid optimization.splitChunks configuration.",
+      "stack": "Error: SplitChunksPlugin\nCache group defaultVendors\nConfigured minSize (29.3 KiB) is bigger than maxSize (0 bytes).\nThis seem to be a invalid optimization.splitChunks configuration.\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\optimize\\SplitChunksPlugin.js:1555:11\n    at Hook.eval (eval at create (G:\\learn\\webpack-advanced\\node_modules\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:48:16)\n    at Hook.CALL_DELEGATE [as _call] (G:\\learn\\webpack-advanced\\node_modules\\webpack\\node_modules\\tapable\\lib\\Hook.js:14:14)\n    at Compilation.seal (G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\Compilation.js:2010:36)\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\Compiler.js:1005:20\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\Compilation.js:1834:4\n    at eval (eval at create (G:\\learn\\webpack-advanced\\node_modules\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:42:1)\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\FlagDependencyExportsPlugin.js:332:11\n    at G:\\learn\\webpack-advanced\\node_modules\\neo-async\\async.js:2830:7\n    at Object.each (G:\\learn\\webpack-advanced\\node_modules\\neo-async\\async.js:2850:39)"
+    },
+    {
+      "message": "SplitChunksPlugin\nFallback cache group\nConfigured minSize (29.3 KiB) is bigger than maxSize (0 bytes).\nThis seem to be a invalid optimization.splitChunks configuration.",
+      "stack": "Error: SplitChunksPlugin\nFallback cache group\nConfigured minSize (29.3 KiB) is bigger than maxSize (0 bytes).\nThis seem to be a invalid optimization.splitChunks configuration.\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\optimize\\SplitChunksPlugin.js:1555:11\n    at Hook.eval (eval at create (G:\\learn\\webpack-advanced\\node_modules\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:48:16)\n    at Hook.CALL_DELEGATE [as _call] (G:\\learn\\webpack-advanced\\node_modules\\webpack\\node_modules\\tapable\\lib\\Hook.js:14:14)\n    at Compilation.seal (G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\Compilation.js:2010:36)\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\Compiler.js:1005:20\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\Compilation.js:1834:4\n    at eval (eval at create (G:\\learn\\webpack-advanced\\node_modules\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:42:1)\n    at G:\\learn\\webpack-advanced\\node_modules\\webpack\\lib\\FlagDependencyExportsPlugin.js:332:11\n    at G:\\learn\\webpack-advanced\\node_modules\\neo-async\\async.js:2830:7\n    at Object.each (G:\\learn\\webpack-advanced\\node_modules\\neo-async\\async.js:2850:39)"
     }
   ],
-  "warningsCount": 13,
+  "warningsCount": 15,
   "children": [
     {
       "name": "HtmlWebpackCompiler",
       "hash": "6bc842e4b757af001e8e",
       "version": "5.10.0",
-      "time": 83,
-      "builtAt": 1607709522990,
+      "time": 89,
+      "builtAt": 1607710312642,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {
@@ -8610,8 +8618,8 @@
       "name": "mini-css-extract-plugin G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\react-components\\Button\\styles.css",
       "hash": "517413548616893a0340",
       "version": "5.10.0",
-      "time": 1266,
-      "builtAt": 1607709524709,
+      "time": 1321,
+      "builtAt": 1607710314450,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {},
@@ -9848,8 +9856,8 @@
       "name": "mini-css-extract-plugin G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\react-components\\postcss.css",
       "hash": "f74ef77c404c5359b716",
       "version": "5.10.0",
-      "time": 1301,
-      "builtAt": 1607709524623,
+      "time": 1365,
+      "builtAt": 1607710314360,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {},
@@ -11060,8 +11068,8 @@
       "name": "mini-css-extract-plugin G:\\learn\\webpack-advanced\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[1]!G:\\learn\\webpack-advanced\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[6].use[2]!G:\\learn\\webpack-advanced\\source\\theme\\main.css",
       "hash": "3436055ed48985180aa2",
       "version": "5.10.0",
-      "time": 1337,
-      "builtAt": 1607709524644,
+      "time": 1409,
+      "builtAt": 1607710314383,
       "publicPath": "/",
       "outputPath": "G:\\learn\\webpack-advanced\\build",
       "assetsByChunkName": {},
