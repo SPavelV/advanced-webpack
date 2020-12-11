@@ -1,6 +1,6 @@
-(globalThis["webpackChunkwebpack_advanced"] = globalThis["webpackChunkwebpack_advanced"] || []).push([[0],[
-/* 0 */,
-/* 1 */
+(globalThis["webpackChunkwebpack_advanced"] = globalThis["webpackChunkwebpack_advanced"] || []).push([[0],{
+
+/***/ 12:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -11,4 +11,5 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("Меня загрузили динамически🌟");
 
 /***/ })
-]]);
+
+}]);

@@ -4,7 +4,7 @@
 
 import component from "./simple-components/dom";
 // import "./simple-components/javascript";
-// import "./react-components";
+import "./react-components";
 import "./theme/main.css";
 
 // import moment from "moment";
@@ -18,13 +18,13 @@ document.body.appendChild(element);
 // 1. react-hot-loader: babel-плагин
 // 2. react-hot-loader: исходный код
 
-// if (module.hot) {
-//   module.hot.accept("./simple-components/dom", function () {
-//     document.body.removeChild(element);
-//     element = component();
-//     document.body.appendChild(element);
-//   });
-// }
+if (module.hot) {
+  module.hot.accept("./simple-components/dom", function () {
+    document.body.removeChild(element);
+    element = component();
+    document.body.appendChild(element);
+  });
+}
 
 // ! ENV variables
 // 1. Api (ссылка к API - дев или прод)

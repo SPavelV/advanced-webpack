@@ -18,7 +18,7 @@ export default () => {
       entry: [SOURCE_DIRECTORY],
       output: {
         path: BUILD_DIRECTORY,
-        filename: "js/bundle.[hash:5].js",
+        filename: "js/bundle.[contenthash:5].js",
         chunkFilename: "js/bundle.[chunkhash:5].js",
 
         // filename: IS_DEV

@@ -68,6 +68,12 @@ export const optimizeBuild = () => ({
 
     // initial chunk(vendors - react, react-dom)
     // async chunk (on demond)
+
+    // Эта опция включена всегда. Конфигурируется в SplitChunksPlugin
+    splitChunks: {
+      // Режим разделеиния кода. По-умолчанию - async.
+      chunks: "all", // initial, all
+    },
   },
 });
 
