@@ -15,11 +15,12 @@ export default () => {
   return merge(
     {
       mode: "none",
+      // entry: [SOURCE_DIRECTORY, "@babel/polyfill"], // то же, что и импорт в index.js
       entry: [SOURCE_DIRECTORY],
       output: {
         path: BUILD_DIRECTORY,
         filename: IS_DEV
-          ? "js/bundle.[hash].chunk.js"
+          ? "js/bundle.[contenthash].chunk.js"
           : "js/bundle.[chunkhash].bundle.js", // entry point bundle name
         chunkFilename: "js/bundle.[chunkhash].chunk.js", // chunk name
         publicPath: "/",

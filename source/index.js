@@ -1,3 +1,5 @@
+// import "@babel/polyfill"; // ставить импорт первым, минус - собираются все полифилы
+
 // import { update } from "lodash-es";
 // import * as _ from "lodash-es";
 // console.log(_.update);
