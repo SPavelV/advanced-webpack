@@ -1,98 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ([
-/* 0 */
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.promise.js
-var es_promise = __webpack_require__(1);
-// EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
-var runtime = __webpack_require__(75);
-;// CONCATENATED MODULE: ./source/simple-components/dom.js
-
-
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-/* harmony default export */ const dom = ((text = "Hello!!!🎉🎉🎉") => {
-  const element = document.createElement("div");
-  element.addEventListener("click", /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-    var result;
-    return regeneratorRuntime.wrap(function _callee$(_context) {
-      while (1) switch (_context.prev = _context.next) {
-        case 0:
-          element.innerHTML = "Динамическая загрузка⏲...";
-          _context.next = 3;
-          return __webpack_require__.e(/* import() | lazyLoadedText */ 0).then(__webpack_require__.bind(__webpack_require__, 76));
-
-        case 3:
-          result = _context.sent;
-          _context.next = 6;
-          return new Promise(resolve => setTimeout(() => {
-            resolve;
-          }, 2000));
-
-        case 6:
-          element.innerHTML = result.default;
-
-        case 7:
-        case "end":
-          return _context.stop();
-      }
-    }, _callee);
-  })));
-  element.innerHTML = text;
-  return element;
-});
-;// CONCATENATED MODULE: ./source/index.js
-// import "@babel/polyfill"; // ставить импорт первым, минус - собираются все полифилы
-// import { update } from "lodash-es";
-// import * as _ from "lodash-es";
-// console.log(_.update);
- // import "./simple-components/javascript";
-// import "./react-components";
-
- // import moment from "moment";
-// const now = moment.now();
-// moment.locale("en");
-
-let source_element = dom();
-document.body.appendChild(source_element); // TODO: hot reloading на React
-// 1. react-hot-loader: babel-плагин
-// 2. react-hot-loader: исходный код
-
-if (false) {} // ! ENV variables
-// 1. Api (ссылка к API - дев или прод)
-// 2. условия (дев или прод)
-// 3. фичи в разработке (feature flags)
-// console.log("➡ RELEASE: ", RELEASE);
-// console.log("➡ TWO: ", TWO);
-// console.log("➡ THREE: ", THREE);
-// console.log("➡ FOUR: ", FOUR);
-// console.log("➡ TRUE_SIMPLE: ", TRUE_SIMPLE);
-// console.log("➡ TRUE_STRINGIFIED: ", TRUE_STRINGIFIED);
-// console.log("__ENV__ ", __ENV__);
-// console.log("__DEV__ ", __DEV__);
-// console.log("__STAGE__ ", __STAGE__);
-// console.log("__PROD__ ", __PROD__);
-// if (__DEV__) {
-//   console.log("➡ dev");
-// }
-// if (__PROD__) {
-//   console.log("➡ prod");
-// }
-// if (process.env.NODE_ENV === "development") {
-//   console.log("➡ development");
-// }
-// if (RELEASE === "2.1") {
-//   // код нашей фичи
-// }
-
-/***/ })
-/******/ 	]);
+/******/ 	var __webpack_modules__ = ({});
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -105,7 +13,7 @@ if (false) {} // ! ENV variables
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
+/******/ 			id: moduleId,
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
@@ -121,6 +29,18 @@ if (false) {} // ! ENV variables
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => module['default'] :
+/******/ 				() => module;
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -151,7 +71,7 @@ if (false) {} // ! ENV variables
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/bundle." + "2d202" + ".chunk.js";
+/******/ 			return "js/bundle." + "24edb" + ".chunk.js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -160,7 +80,7 @@ if (false) {} // ! ENV variables
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "css/" + ({"0":"lazyLoadedText","1":"main"}[chunkId] || chunkId) + "." + {"0":"31d6c","1":"undef","2":"31d6c"}[chunkId] + "." + chunkId + ".css";
+/******/ 			return "css/" + ({"0":"lazyLoadedText","1":"main","2":"runtime~main"}[chunkId] || chunkId) + "." + {"0":"ae46c","1":"ef51a","2":"undef","3":"31d6c"}[chunkId] + "." + chunkId + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -243,6 +163,78 @@ if (false) {} // ! ENV variables
 /******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/css loading */
+/******/ 	(() => {
+/******/ 		var createStylesheet = (chunkId, fullhref, resolve, reject) => {
+/******/ 			var linkTag = document.createElement("link");
+/******/ 		
+/******/ 			linkTag.rel = "stylesheet";
+/******/ 			linkTag.type = "text/css";
+/******/ 			var onLinkComplete = (event) => {
+/******/ 				// avoid mem leaks.
+/******/ 				linkTag.onerror = linkTag.onload = null;
+/******/ 				if (event.type === 'load') {
+/******/ 					resolve();
+/******/ 				} else {
+/******/ 					var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 					var realHref = event && event.target && event.target.href || fullhref;
+/******/ 					var err = new Error("Loading CSS chunk " + chunkId + " failed.\n(" + realHref + ")");
+/******/ 					err.code = "CSS_CHUNK_LOAD_FAILED";
+/******/ 					err.type = errorType;
+/******/ 					err.request = realHref;
+/******/ 					linkTag.parentNode.removeChild(linkTag)
+/******/ 					reject(err);
+/******/ 				}
+/******/ 			}
+/******/ 			linkTag.onerror = linkTag.onload = onLinkComplete;
+/******/ 			linkTag.href = fullhref;
+/******/ 		
+/******/ 			document.head.appendChild(linkTag);
+/******/ 			return linkTag;
+/******/ 		};
+/******/ 		var findStylesheet = (href, fullhref) => {
+/******/ 			var existingLinkTags = document.getElementsByTagName("link");
+/******/ 			for(var i = 0; i < existingLinkTags.length; i++) {
+/******/ 				var tag = existingLinkTags[i];
+/******/ 				var dataHref = tag.getAttribute("data-href") || tag.getAttribute("href");
+/******/ 				if(tag.rel === "stylesheet" && (dataHref === href || dataHref === fullhref)) return tag;
+/******/ 			}
+/******/ 			var existingStyleTags = document.getElementsByTagName("style");
+/******/ 			for(var i = 0; i < existingStyleTags.length; i++) {
+/******/ 				var tag = existingStyleTags[i];
+/******/ 				var dataHref = tag.getAttribute("data-href");
+/******/ 				if(dataHref === href || dataHref === fullhref) return tag;
+/******/ 			}
+/******/ 		};
+/******/ 		var loadStylesheet = (chunkId) => {
+/******/ 			return new Promise((resolve, reject) => {
+/******/ 				var href = __webpack_require__.miniCssF(chunkId);
+/******/ 				var fullhref = __webpack_require__.p + href;
+/******/ 				if(findStylesheet(href, fullhref)) return resolve();
+/******/ 				createStylesheet(chunkId, fullhref, resolve, reject);
+/******/ 			});
+/******/ 		}
+/******/ 		// object to store loaded CSS chunks
+/******/ 		var installedCssChunks = {
+/******/ 			2: 0
+/******/ 		};
+/******/ 		
+/******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
+/******/ 			var cssChunks = {"0":1};
+/******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
+/******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
+/******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
+/******/ 					installedCssChunks[chunkId] = 0;
+/******/ 				}, (e) => {
+/******/ 					delete installedCssChunks[chunkId];
+/******/ 					throw e;
+/******/ 				}));
+/******/ 			}
+/******/ 		};
+/******/ 		
+/******/ 		// no hmr
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
 /******/ 		// no baseURI
@@ -251,11 +243,11 @@ if (false) {} // ! ENV variables
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// Promise = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			1: 0
+/******/ 			2: 0
 /******/ 		};
 /******/ 		
 /******/ 		var deferredModules = [
-/******/ 			[0,2]
+/******/ 		
 /******/ 		];
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
 /******/ 				// JSONP chunk loading for javascript

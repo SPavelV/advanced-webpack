@@ -72,7 +72,7 @@ export const optimizeBuild = () => ({
     // Эта опция включена всегда. Конфигурируется в SplitChunksPlugin
     splitChunks: {
       // Режим разделеиния кода. По-умолчанию - async.
-      chunks: "initial", // initial, all
+      chunks: "async", // initial, all (async + initial)
       // Минимальный размер нового чанка для отделения.
       minSize: 30000, // bytes
       // Максимальный размер нового чанка для отделения.
@@ -117,22 +117,10 @@ export const optimizeBuild = () => ({
           // то используется этот же существующий отдельный чанк вместо создания нового.
           reuseExistingChunk: true,
         },
-        test: {
-          // Кастомная кеш-группа.
-          minChunks: 2,
-          priority: 10,
-          reuseExistingChunk: true,
-        },
-        test2: {
-          // Кастомная кеш-группа.
-          minChunks: 2,
-          priority: 20,
-          reuseExistingChunk: true,
-        },
       },
     },
     // Выносит webpack runtime каждого entrypoint в отдельный чанк. false по-умолчанию.
-    runtimeChunk: false, // TODO: разобрать
+    runtimeChunk: true,
   },
 });
 
