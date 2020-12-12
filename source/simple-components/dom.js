@@ -1,8 +1,8 @@
-export default (text = "Hello🎉🎉🎉") => {
+export default (text = "Hello!!!🎉🎉🎉") => {
   const element = document.createElement("div");
 
   element.addEventListener("click", async () => {
-    element.innerHTML = "Загрузка...";
+    element.innerHTML = "Динамическая загрузка⏲...";
     const result = await import(
       /* webpackChunkName: "lazyLoadedText" */ "./lazyLoadedText"
     );

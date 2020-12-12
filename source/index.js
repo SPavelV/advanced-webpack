@@ -4,7 +4,7 @@
 
 import component from "./simple-components/dom";
 // import "./simple-components/javascript";
-import "./react-components";
+// import "./react-components";
 import "./theme/main.css";
 
 // import moment from "moment";

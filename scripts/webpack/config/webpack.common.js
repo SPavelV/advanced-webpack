@@ -18,17 +18,12 @@ export default () => {
       entry: [SOURCE_DIRECTORY],
       output: {
         path: BUILD_DIRECTORY,
-        filename: "js/bundle.[contenthash:5].js",
-        chunkFilename: "js/bundle.[chunkhash:5].js",
-
-        // filename: IS_DEV
-        //   ? "js/[name].[hash].[id]"
-        //   : "js/[name].[contenthash:5].[id].js",
-        // chunkFilename: IS_DEV
-        //   ? "js/[name].[hash].[id]"
-        //   : "js/[name].[chunkhash:5].[id].js",
-
+        filename: IS_DEV
+          ? "js/bundle.[hash].chunk.js"
+          : "js/bundle.[chunkhash].bundle.js", // entry point bundle name
+        chunkFilename: "js/bundle.[chunkhash].chunk.js", // chunk name
         publicPath: "/",
+        hashDigestLength: 5,
       },
     },
     modules.defineEnvVariables(),
