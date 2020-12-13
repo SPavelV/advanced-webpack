@@ -1,4 +1,4 @@
-import { HotModuleReplacementPlugin } from "webpack";
+import { HotModuleReplacementPlugin, ProvidePlugin } from "webpack";
 import WebpackBar from "webpackbar";
 import FriendlyErrorsWebpackPlugin from "friendly-errors-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
@@ -47,10 +47,17 @@ export const defineEnvVariables = () => {
         __DEV__: NODE_ENV === "development",
         __STAGE__: NODE_ENV === "development",
         __PROD__: NODE_ENV === "production",
-
-        // HELLO_SIMPLE: "hello",
-        // HELLO_STRINGIFIED: JSON.stringify("hello"),
       }),
     ],
   };
 };
+
+export const provideGlobals = () => ({
+  plugins: [
+    new ProvidePlugin({
+      React: "react",
+      // $: "jquery",
+      // _: "lodash-es",
+    }),
+  ],
+});

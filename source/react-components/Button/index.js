@@ -1,10 +1,7 @@
-// Core
-import React, { Component } from "react";
-
 // Styles
 import Styles from "./styles.css";
 
-export class Button extends Component {
+export class Button extends React.Component {
   render() {
     const { children, onClick } = this.props;
     return (
