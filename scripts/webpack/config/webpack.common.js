@@ -12,6 +12,8 @@ export default () => {
   const { NODE_ENV } = process.env;
   const IS_DEV = NODE_ENV === "development";
 
+  debugger;
+
   return merge(
     {
       mode: "none",
